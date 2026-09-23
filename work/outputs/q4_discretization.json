@@ -1,0 +1,47 @@
+{
+  "comparison": "Combined 14 to 48 MEA grid and 0.5 to 0.2 s controller sampling refinement; not a pure spatial convergence proof",
+  "rows": [
+    {
+      "scenario": "equilibrium",
+      "coarse_run": "q4_dev_equilibrium_214f4426b9ba21f90196",
+      "fine_run": "q4_fine_c2ec4bd2c7e7f9566ebc",
+      "coarse_feasibility": "feasible",
+      "fine_feasibility": "feasible",
+      "coarse_time": 137.6320340224929,
+      "fine_time": 137.67813696035333,
+      "coarse_energy": 5263.777881384935,
+      "fine_energy": 5265.676927292617,
+      "energy_relative_difference": 0.00036064611139325844,
+      "coarse_ice": 0.01034878463264812,
+      "fine_ice": 0.011684179038035107
+    },
+    {
+      "scenario": "20min",
+      "coarse_run": "q4_dev_20min_69fe4ea19fff2a9dfba2",
+      "fine_run": "q4_fine_cf74ad553fcb6eec44e4",
+      "coarse_feasibility": "feasible",
+      "fine_feasibility": "feasible",
+      "coarse_time": 38.986013647331525,
+      "fine_time": 39.12589155026362,
+      "coarse_energy": 1220.1112584370267,
+      "fine_energy": 1218.6040185146564,
+      "energy_relative_difference": 0.001236857830328983,
+      "coarse_ice": 9.303130932659736e-21,
+      "fine_ice": 4.499306223740903e-20
+    },
+    {
+      "scenario": "40min",
+      "coarse_run": "q4_dev_40min_360c8c7e53d2421c7d81",
+      "fine_run": "q4_fine_23922b43026610801997",
+      "coarse_feasibility": "feasible",
+      "fine_feasibility": "feasible",
+      "coarse_time": 99.1720953767397,
+      "fine_time": 99.26141577433181,
+      "coarse_energy": 3447.123112653723,
+      "fine_energy": 3448.217378887498,
+      "energy_relative_difference": 0.0003173425899639207,
+      "coarse_ice": 8.451957788554091e-20,
+      "fine_ice": 1.6206629633952847e-20
+    }
+  ]
+}

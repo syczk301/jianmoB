@@ -1,0 +1,224 @@
+[
+  {
+    "n_MEA": 14,
+    "max_step": 0.5,
+    "rtol": 1e-05,
+    "case_hash": "19ecb8454ed3199e",
+    "feasibility": "unresolved",
+    "stop_reason": "horizon",
+    "success_time": null,
+    "last_valid_time": 36.6,
+    "th_startup": 0.0,
+    "startup_result": "horizon",
+    "shutdown_status": "unresolved",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0
+    ],
+    "charge_C_cm2": 6.423828373377639,
+    "wall_s": 10.456809800001793,
+    "nfev": 2358,
+    "mass_residual": 3.400905651567142e-14,
+    "energy_residual": 3.9050944825190357e-16,
+    "exception": null,
+    "V_min": 0.5691581900779678,
+    "ice_max": 0.0037580997482783043,
+    "delta_T_max": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.5691581900779678,
+      "ice_max": 0.0037580997482783043,
+      "delta_T_max": 0.0
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "horizon",
+        "wall_s": 10.456809800001793
+      }
+    ],
+    "candidate_id": "convergence_6f16f28055a4f4e26834",
+    "numerically_accepted": true,
+    "config_requested": "19ecb8454ed3199e",
+    "code_hash": "904567fd11d251fb",
+    "next_grid_V_diff": 0.0035322766354703994,
+    "next_grid_T_diff": 0.02016093036638722,
+    "output_converged": false
+  },
+  {
+    "n_MEA": 48,
+    "max_step": 0.2,
+    "rtol": 2e-06,
+    "case_hash": "5ce89b41bedd71fa",
+    "feasibility": "unresolved",
+    "stop_reason": "horizon",
+    "success_time": null,
+    "last_valid_time": 36.6,
+    "th_startup": 0.0,
+    "startup_result": "horizon",
+    "shutdown_status": "unresolved",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0
+    ],
+    "charge_C_cm2": 6.423905115332035,
+    "wall_s": 43.62342609994812,
+    "nfev": 4895,
+    "mass_residual": 1.9078747962958794e-14,
+    "energy_residual": 1.334124805415756e-15,
+    "exception": null,
+    "V_min": 0.5666959696251349,
+    "ice_max": 0.004212263697866163,
+    "delta_T_max": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.5666959696251349,
+      "ice_max": 0.004212263697866163,
+      "delta_T_max": 0.0
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "horizon",
+        "wall_s": 43.62342609994812
+      }
+    ],
+    "candidate_id": "convergence_5753c599fce06a89f822",
+    "numerically_accepted": true,
+    "config_requested": "5ce89b41bedd71fa",
+    "code_hash": "904567fd11d251fb",
+    "next_grid_V_diff": 0.0017804360892856863,
+    "next_grid_T_diff": 0.014466438260171799,
+    "output_converged": false
+  },
+  {
+    "n_MEA": 96,
+    "max_step": 0.1,
+    "rtol": 1e-06,
+    "case_hash": "71c1344a00f3c68b",
+    "feasibility": "unresolved",
+    "stop_reason": "horizon",
+    "success_time": null,
+    "last_valid_time": 36.6,
+    "th_startup": 0.0,
+    "startup_result": "horizon",
+    "shutdown_status": "unresolved",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0
+    ],
+    "charge_C_cm2": 6.423886264292993,
+    "wall_s": 72.14284330001101,
+    "nfev": 7469,
+    "mass_residual": 3.6253488423795295e-14,
+    "energy_residual": 1.571302548600779e-15,
+    "exception": null,
+    "V_min": 0.5653138331615507,
+    "ice_max": 0.0046209405073677125,
+    "delta_T_max": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.5653138331615507,
+      "ice_max": 0.0046209405073677125,
+      "delta_T_max": 0.0
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "horizon",
+        "wall_s": 72.14284330001101
+      }
+    ],
+    "candidate_id": "convergence_79a8ed5efbfaf6ea52b8",
+    "numerically_accepted": true,
+    "config_requested": "71c1344a00f3c68b",
+    "code_hash": "904567fd11d251fb",
+    "next_grid_V_diff": 0.001100254124661526,
+    "next_grid_T_diff": 0.010112724944008278,
+    "output_converged": false
+  },
+  {
+    "n_MEA": 192,
+    "max_step": 0.05,
+    "rtol": 5e-07,
+    "case_hash": "39b2f92f7a7d7ad9",
+    "feasibility": "unresolved",
+    "stop_reason": "horizon",
+    "success_time": null,
+    "last_valid_time": 36.6,
+    "th_startup": 0.0,
+    "startup_result": "horizon",
+    "shutdown_status": "unresolved",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0
+    ],
+    "charge_C_cm2": 6.423895684471447,
+    "wall_s": 239.94238329998916,
+    "nfev": 12712,
+    "mass_residual": 1.761563813250744e-14,
+    "energy_residual": 1.1858887159251164e-15,
+    "exception": null,
+    "V_min": 0.5644122413838752,
+    "ice_max": 0.0050575681093497134,
+    "delta_T_max": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.5644122413838752,
+      "ice_max": 0.0050575681093497134,
+      "delta_T_max": 0.0
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "horizon",
+        "wall_s": 239.94238329998916
+      }
+    ],
+    "candidate_id": "convergence_d7965fb691d6a1d491c4",
+    "numerically_accepted": true,
+    "config_requested": "39b2f92f7a7d7ad9",
+    "code_hash": "904567fd11d251fb",
+    "next_grid_V_diff": 0.0006157942934859051,
+    "next_grid_T_diff": 0.007159037172641547,
+    "output_converged": true
+  },
+  {
+    "n_MEA": 384,
+    "max_step": 0.025,
+    "rtol": 2.5e-07,
+    "case_hash": "905b11121c3e2ecc",
+    "feasibility": "unresolved",
+    "stop_reason": "horizon",
+    "success_time": null,
+    "last_valid_time": 36.6,
+    "th_startup": 0.0,
+    "startup_result": "horizon",
+    "shutdown_status": "unresolved",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0
+    ],
+    "charge_C_cm2": 6.423898893311939,
+    "wall_s": 1224.8658945000498,
+    "nfev": 23777,
+    "mass_residual": 3.934520658508785e-15,
+    "energy_residual": 1.5120081128045234e-15,
+    "exception": null,
+    "V_min": 0.5639031009990297,
+    "ice_max": 0.005319297712078292,
+    "delta_T_max": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.5639031009990297,
+      "ice_max": 0.005319297712078292,
+      "delta_T_max": 0.0
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "horizon",
+        "wall_s": 1224.8658945000498
+      }
+    ],
+    "candidate_id": "convergence_extra_d37be65714d7545a3085",
+    "numerically_accepted": true,
+    "config_requested": "905b11121c3e2ecc",
+    "code_hash": "904567fd11d251fb"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "all_five_docx_tables_match_csv": true,
+  "word_reopen_pass": true,
+  "pages": 3,
+  "visual_review": "all 3 pages checked after final render; no clipping or overflow; unit exponents preserved",
+  "renderer": "Microsoft Word ExportAsFixedFormat and Poppler; packaged renderer could not find LibreOffice",
+  "docx_sha256": "4e6bfa0ed8b8865f15bf9b7cb22b180536ebf39906990890d5a864d6ad22d946"
+}

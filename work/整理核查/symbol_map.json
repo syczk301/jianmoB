@@ -1,0 +1,658 @@
+{
+  "calibrate.experiment": {
+    "file": "q1.py",
+    "symbol": "experiment"
+  },
+  "calibrate.fit_job": {
+    "file": "q1.py",
+    "symbol": "calibrate_fit_job"
+  },
+  "calibrate.waveform": {
+    "file": "q1.py",
+    "symbol": "waveform"
+  },
+  "completion.q3_control_convergence": {
+    "file": "q3.py",
+    "symbol": "q3_control_convergence"
+  },
+  "completion.refine_q2": {
+    "file": "q2.py",
+    "symbol": "refine_q2"
+  },
+  "completion.failure_diagnostics": {
+    "file": "q1.py",
+    "symbol": "failure_diagnostics"
+  },
+  "completion.reference_trajectory_error": {
+    "file": "q4.py",
+    "symbol": "reference_trajectory_error"
+  },
+  "completion.q4_discretization": {
+    "file": "q4.py",
+    "symbol": "q4_discretization"
+  },
+  "completion.complete": {
+    "file": "q4.py",
+    "symbol": "complete"
+  },
+  "completion.horizon_expansion": {
+    "file": "q3.py",
+    "symbol": "horizon_expansion"
+  },
+  "completion.control_robustness": {
+    "file": "q4.py",
+    "symbol": "control_robustness"
+  },
+  "completion.boundary_replay": {
+    "file": "q2.py",
+    "symbol": "boundary_replay"
+  },
+  "completion.trajectory_diagnostics": {
+    "file": "q1.py",
+    "symbol": "trajectory_diagnostics"
+  },
+  "completion.controller_latency": {
+    "file": "q4.py",
+    "symbol": "controller_latency"
+  },
+  "completion.boundary_points": {
+    "file": "q2.py",
+    "symbol": "boundary_points"
+  },
+  "completion.refine_q4": {
+    "file": "q4.py",
+    "symbol": "refine_q4"
+  },
+  "completion.read": {
+    "file": "q2.py",
+    "symbol": "completion_read"
+  },
+  "completion.qualify_q3": {
+    "file": "q3.py",
+    "symbol": "qualify_q3"
+  },
+  "config.P": {
+    "file": "q1.py",
+    "symbol": "P"
+  },
+  "config.DRY_C": {
+    "file": "q1.py",
+    "symbol": "DRY_C"
+  },
+  "config.R": {
+    "file": "q1.py",
+    "symbol": "R"
+  },
+  "config.Config": {
+    "file": "q1.py",
+    "symbol": "Config"
+  },
+  "config.TM": {
+    "file": "q1.py",
+    "symbol": "TM"
+  },
+  "config.LV": {
+    "file": "q1.py",
+    "symbol": "LV"
+  },
+  "config.K_SOLID": {
+    "file": "q1.py",
+    "symbol": "K_SOLID"
+  },
+  "config.THICKNESS": {
+    "file": "q1.py",
+    "symbol": "THICKNESS"
+  },
+  "config.AREA": {
+    "file": "q1.py",
+    "symbol": "AREA"
+  },
+  "config.LAYER_NAMES": {
+    "file": "q1.py",
+    "symbol": "LAYER_NAMES"
+  },
+  "config.F": {
+    "file": "q1.py",
+    "symbol": "F"
+  },
+  "config.YO2": {
+    "file": "q1.py",
+    "symbol": "YO2"
+  },
+  "config.LF": {
+    "file": "q1.py",
+    "symbol": "LF"
+  },
+  "config.MW": {
+    "file": "q1.py",
+    "symbol": "MW"
+  },
+  "config.POROSITY": {
+    "file": "q1.py",
+    "symbol": "POROSITY"
+  },
+  "energy_extension.read": {
+    "file": "q3.py",
+    "symbol": "energy_extension_read"
+  },
+  "energy_extension.precompute_zero_q4": {
+    "file": "q4.py",
+    "symbol": "precompute_zero_q4"
+  },
+  "energy_extension.zero_heat_robustness": {
+    "file": "q4.py",
+    "symbol": "zero_heat_robustness"
+  },
+  "energy_extension.resolve_energy_extension": {
+    "file": "q3.py",
+    "symbol": "resolve_energy_extension"
+  },
+  "evaluate._LOADED_CODE_DIGEST": {
+    "file": "q1.py",
+    "symbol": "_LOADED_CODE_DIGEST"
+  },
+  "evaluate.evaluate": {
+    "file": "q1.py",
+    "symbol": "evaluate"
+  },
+  "evaluate.code_digest": {
+    "file": "q1.py",
+    "symbol": "code_digest"
+  },
+  "evaluate.score": {
+    "file": "q1.py",
+    "symbol": "score"
+  },
+  "evaluate._snapshot_code": {
+    "file": "q1.py",
+    "symbol": "_snapshot_code"
+  },
+  "feedback.RuleConfig": {
+    "file": "q4.py",
+    "symbol": "RuleConfig"
+  },
+  "feedback.RuleController": {
+    "file": "q4.py",
+    "symbol": "RuleController"
+  },
+  "figures.figures": {
+    "file": "q1.py",
+    "symbol": "figures"
+  },
+  "figures.COLORS": {
+    "file": "q1.py",
+    "symbol": "figures_COLORS"
+  },
+  "figures.save": {
+    "file": "q1.py",
+    "symbol": "save"
+  },
+  "geometry.Geometry": {
+    "file": "q1.py",
+    "symbol": "Geometry"
+  },
+  "identifiability.identifiability": {
+    "file": "q1.py",
+    "symbol": "identifiability"
+  },
+  "identifiability.response_job": {
+    "file": "q1.py",
+    "symbol": "response_job"
+  },
+  "io.json_default": {
+    "file": "q1.py",
+    "symbol": "json_default"
+  },
+  "io.write_json": {
+    "file": "q1.py",
+    "symbol": "write_json"
+  },
+  "io.audit": {
+    "file": "q1.py",
+    "symbol": "audit"
+  },
+  "io.ROOT": {
+    "file": "q1.py",
+    "symbol": "io_ROOT"
+  },
+  "io.SOURCE": {
+    "file": "q1.py",
+    "symbol": "io_SOURCE"
+  },
+  "io.environment": {
+    "file": "q1.py",
+    "symbol": "environment"
+  },
+  "io.load_source": {
+    "file": "q1.py",
+    "symbol": "load_source"
+  },
+  "io.PLAN_ROOT": {
+    "file": "q1.py",
+    "symbol": "PLAN_ROOT"
+  },
+  "io.save_run": {
+    "file": "q1.py",
+    "symbol": "save_run"
+  },
+  "io.load_run": {
+    "file": "q1.py",
+    "symbol": "load_run"
+  },
+  "io.OUTPUT": {
+    "file": "q1.py",
+    "symbol": "OUTPUT"
+  },
+  "model.Model": {
+    "file": "q1.py",
+    "symbol": "Model"
+  },
+  "optimize.refine_neighbors": {
+    "file": "q2.py",
+    "symbol": "refine_neighbors"
+  },
+  "optimize.worker": {
+    "file": "q2.py",
+    "symbol": "worker"
+  },
+  "optimize.batch": {
+    "file": "q2.py",
+    "symbol": "batch"
+  },
+  "optimize.q2": {
+    "file": "q2.py",
+    "symbol": "q2"
+  },
+  "optimize.save_search": {
+    "file": "q2.py",
+    "symbol": "save_search"
+  },
+  "optimize.q2_temperature_scan": {
+    "file": "q2.py",
+    "symbol": "q2_temperature_scan"
+  },
+  "optimize.q3": {
+    "file": "q3.py",
+    "symbol": "q3"
+  },
+  "optimize.best": {
+    "file": "q2.py",
+    "symbol": "best"
+  },
+  "pipeline.calibrate_all": {
+    "file": "q1.py",
+    "symbol": "calibrate_all"
+  },
+  "pipeline.replay_frozen": {
+    "file": "q1.py",
+    "symbol": "replay_frozen"
+  },
+  "pipeline.selected_config": {
+    "file": "q1.py",
+    "symbol": "selected_config"
+  },
+  "plot_style.label": {
+    "file": "q1.py",
+    "symbol": "label"
+  },
+  "plot_style.question": {
+    "file": "q1.py",
+    "symbol": "question"
+  },
+  "plot_style.prefix": {
+    "file": "q1.py",
+    "symbol": "prefix"
+  },
+  "plot_style.kind": {
+    "file": "q1.py",
+    "symbol": "kind"
+  },
+  "plot_style.STRATEGIES": {
+    "file": "q1.py",
+    "symbol": "STRATEGIES"
+  },
+  "plot_style.STOP_REASONS": {
+    "file": "q1.py",
+    "symbol": "STOP_REASONS"
+  },
+  "plot_style.SCENARIOS": {
+    "file": "q1.py",
+    "symbol": "SCENARIOS"
+  },
+  "plot_style.SENSITIVITY": {
+    "file": "q1.py",
+    "symbol": "SENSITIVITY"
+  },
+  "plot_style.kinds": {
+    "file": "q1.py",
+    "symbol": "kinds"
+  },
+  "plot_style.configure_chinese_plotting": {
+    "file": "q1.py",
+    "symbol": "configure_chinese_plotting"
+  },
+  "plot_style.FIGURE_NAMES": {
+    "file": "q1.py",
+    "symbol": "FIGURE_NAMES"
+  },
+  "plot_style.scenario": {
+    "file": "q1.py",
+    "symbol": "scenario"
+  },
+  "plot_style.STATUSES": {
+    "file": "q1.py",
+    "symbol": "STATUSES"
+  },
+  "plot_style.SEARCH_NAMES": {
+    "file": "q1.py",
+    "symbol": "SEARCH_NAMES"
+  },
+  "precool.precool": {
+    "file": "q4.py",
+    "symbol": "precool"
+  },
+  "precool.run_precool": {
+    "file": "q4.py",
+    "symbol": "run_precool"
+  },
+  "preflight.preflight": {
+    "file": "q1.py",
+    "symbol": "preflight"
+  },
+  "properties.sigma": {
+    "file": "q1.py",
+    "symbol": "sigma"
+  },
+  "properties.harmonic_faces": {
+    "file": "q1.py",
+    "symbol": "harmonic_faces"
+  },
+  "properties.liquid_flux": {
+    "file": "q1.py",
+    "symbol": "liquid_flux"
+  },
+  "properties.lambda_eq": {
+    "file": "q1.py",
+    "symbol": "lambda_eq"
+  },
+  "properties.partition": {
+    "file": "q1.py",
+    "symbol": "partition"
+  },
+  "properties.conductivity": {
+    "file": "q1.py",
+    "symbol": "conductivity"
+  },
+  "properties.psat": {
+    "file": "q1.py",
+    "symbol": "psat"
+  },
+  "properties.hydraulic_pressure": {
+    "file": "q1.py",
+    "symbol": "hydraulic_pressure"
+  },
+  "properties.water_enthalpies": {
+    "file": "q1.py",
+    "symbol": "water_enthalpies"
+  },
+  "properties.membrane_D": {
+    "file": "q1.py",
+    "symbol": "membrane_D"
+  },
+  "properties.liquid_mu": {
+    "file": "q1.py",
+    "symbol": "liquid_mu"
+  },
+  "protocols.Protocol": {
+    "file": "q1.py",
+    "symbol": "Protocol"
+  },
+  "q4.q4": {
+    "file": "q4.py",
+    "symbol": "q4"
+  },
+  "q4.rule_worker": {
+    "file": "q4.py",
+    "symbol": "rule_worker"
+  },
+  "reference_table.load_reference": {
+    "file": "q4.py",
+    "symbol": "load_reference"
+  },
+  "reference_table.ReferenceTable": {
+    "file": "q4.py",
+    "symbol": "ReferenceTable"
+  },
+  "reference_table.reference_voltage": {
+    "file": "q4.py",
+    "symbol": "reference_voltage"
+  },
+  "reference_table.build_vref": {
+    "file": "q4.py",
+    "symbol": "build_vref"
+  },
+  "solver.simulate": {
+    "file": "q1.py",
+    "symbol": "simulate"
+  },
+  "tables.parameter_registry": {
+    "file": "q1.py",
+    "symbol": "parameter_registry"
+  },
+  "tables.make_tables": {
+    "file": "q1.py",
+    "symbol": "make_tables"
+  },
+  "uncertainty.uncertainty": {
+    "file": "q1.py",
+    "symbol": "uncertainty"
+  },
+  "uncertainty.sensitivity_job": {
+    "file": "q1.py",
+    "symbol": "sensitivity_job"
+  },
+  "verification.water_job": {
+    "file": "q1.py",
+    "symbol": "water_job"
+  },
+  "verification.verify_water": {
+    "file": "q1.py",
+    "symbol": "verify_water"
+  },
+  "verification.convergence": {
+    "file": "q1.py",
+    "symbol": "convergence"
+  },
+  "verification.export_mechanisms": {
+    "file": "q1.py",
+    "symbol": "export_mechanisms"
+  },
+  "optimize_voltage.fit_job": {
+    "file": "q1.py",
+    "symbol": "optimize_voltage_fit_job"
+  },
+  "optimize_voltage.DEST": {
+    "file": "q1.py",
+    "symbol": "optimize_voltage_DEST"
+  },
+  "verify_voltage.readj": {
+    "file": "q1.py",
+    "symbol": "readj"
+  },
+  "verify_voltage.DEST": {
+    "file": "q1.py",
+    "symbol": "verify_voltage_DEST"
+  },
+  "verify_voltage.report": {
+    "file": "q1.py",
+    "symbol": "verify_voltage_report"
+  },
+  "verify_voltage.verify": {
+    "file": "q1.py",
+    "symbol": "verify_voltage_verify"
+  },
+  "verify_voltage.replay": {
+    "file": "q1.py",
+    "symbol": "verify_voltage_replay"
+  },
+  "analyze_ice.LAYER": {
+    "file": "q1.py",
+    "symbol": "LAYER"
+  },
+  "analyze_ice.COLORS": {
+    "file": "q1.py",
+    "symbol": "analyze_ice_COLORS"
+  },
+  "analyze_ice.main": {
+    "file": "q1.py",
+    "symbol": "analyze_ice_main"
+  },
+  "analyze_ice.DEST": {
+    "file": "q1.py",
+    "symbol": "analyze_ice_DEST"
+  },
+  "analyze_ice.analyze": {
+    "file": "q1.py",
+    "symbol": "analyze"
+  },
+  "analyze_ice.read": {
+    "file": "q1.py",
+    "symbol": "analyze_ice_read"
+  },
+  "refine_ice.run": {
+    "file": "q1.py",
+    "symbol": "refine_ice_run"
+  },
+  "report_ice.report": {
+    "file": "q1.py",
+    "symbol": "report_ice_report"
+  },
+  "report_ice.D": {
+    "file": "q1.py",
+    "symbol": "D"
+  },
+  "fit_ice_curve.main": {
+    "file": "q1.py",
+    "symbol": "fit_ice_curve_main"
+  },
+  "fit_ice_curve.ROOT": {
+    "file": "q1.py",
+    "symbol": "fit_ice_curve_ROOT"
+  },
+  "fit_ice_curve.DEST": {
+    "file": "q1.py",
+    "symbol": "fit_ice_curve_DEST"
+  },
+  "fit_ice_curve.SOURCE": {
+    "file": "q1.py",
+    "symbol": "fit_ice_curve_SOURCE"
+  },
+  "plot_voltage_fit.main": {
+    "file": "q1.py",
+    "symbol": "plot_voltage_fit_main"
+  },
+  "review_figures.contact_sheets": {
+    "file": "q1.py",
+    "symbol": "contact_sheets"
+  },
+  "compile_complete_tables.compile_tables": {
+    "file": "q1.py",
+    "symbol": "compile_tables"
+  },
+  "compile_complete_tables.table": {
+    "file": "q1.py",
+    "symbol": "table"
+  },
+  "compile_complete_tables.read": {
+    "file": "q1.py",
+    "symbol": "compile_complete_tables_read"
+  },
+  "test_completion.test_refine_disconnected_feasible_intervals": {
+    "file": "q2.py",
+    "symbol": "test_refine_disconnected_feasible_intervals"
+  },
+  "test_events.test_feedback_no_future_and_latched_off": {
+    "file": "q4.py",
+    "symbol": "test_feedback_no_future_and_latched_off"
+  },
+  "test_events.test_reference_outside_and_invalid_corner": {
+    "file": "q4.py",
+    "symbol": "test_reference_outside_and_invalid_corner"
+  },
+  "test_events.test_proposed_constant_power_future_is_discarded_causally": {
+    "file": "q4.py",
+    "symbol": "test_proposed_constant_power_future_is_discarded_causally"
+  },
+  "test_events.test_qualification_really_runs_the_full_window": {
+    "file": "q3.py",
+    "symbol": "test_qualification_really_runs_the_full_window"
+  },
+  "test_events.test_jump_undervoltage_is_latched": {
+    "file": "q2.py",
+    "symbol": "test_jump_undervoltage_is_latched"
+  },
+  "test_events.test_delayed_shutdown_confirmation_is_cancelled_on_new_risk": {
+    "file": "q4.py",
+    "symbol": "test_delayed_shutdown_confirmation_is_cancelled_on_new_risk"
+  },
+  "test_events.test_invalid_input_cannot_be_a_feasible_control": {
+    "file": "q2.py",
+    "symbol": "test_invalid_input_cannot_be_a_feasible_control"
+  },
+  "test_events.test_already_warm_without_heat_has_zero_startup_energy": {
+    "file": "q3.py",
+    "symbol": "test_already_warm_without_heat_has_zero_startup_energy"
+  },
+  "test_events.test_charge_is_series_not_times_five": {
+    "file": "q2.py",
+    "symbol": "test_charge_is_series_not_times_five"
+  },
+  "test_physics.test_exact_saturation_and_enthalpy_inversion": {
+    "file": "q1.py",
+    "symbol": "test_exact_saturation_and_enthalpy_inversion"
+  },
+  "test_physics.test_colored_jacobian_matches_independent_directional_difference": {
+    "file": "q1.py",
+    "symbol": "test_colored_jacobian_matches_independent_directional_difference"
+  },
+  "test_physics.test_geometry_and_units": {
+    "file": "q1.py",
+    "symbol": "test_geometry_and_units"
+  },
+  "test_physics.test_fixed_charge_and_current_limits": {
+    "file": "q1.py",
+    "symbol": "test_fixed_charge_and_current_limits"
+  },
+  "test_physics.test_initial_temperature_is_not_fitted": {
+    "file": "q1.py",
+    "symbol": "test_initial_temperature_is_not_fitted"
+  },
+  "test_physics.test_plate_flux_cancels_and_sealed_energy": {
+    "file": "q1.py",
+    "symbol": "test_plate_flux_cancels_and_sealed_energy"
+  },
+  "test_physics.test_conservative_residual_at_nonuniform_state": {
+    "file": "q1.py",
+    "symbol": "test_conservative_residual_at_nonuniform_state"
+  },
+  "test_physics.test_liquid_flux_dry_equal_pressure_and_drain": {
+    "file": "q1.py",
+    "symbol": "test_liquid_flux_dry_equal_pressure_and_drain"
+  },
+  "test_voltage_closure.test_uniform_cl_dissipation_resistance_is_mesh_independent": {
+    "file": "q1.py",
+    "symbol": "test_uniform_cl_dissipation_resistance_is_mesh_independent"
+  },
+  "test_voltage_closure.test_hydration_factor_limits_and_reference_normalization": {
+    "file": "q1.py",
+    "symbol": "test_hydration_factor_limits_and_reference_normalization"
+  },
+  "test_voltage_closure.test_extended_closure_still_closes_energy_and_water": {
+    "file": "q1.py",
+    "symbol": "test_extended_closure_still_closes_energy_and_water"
+  },
+  "test_voltage_closure.test_supercooled_flash_conserves_water_and_uses_liquid_saturation": {
+    "file": "q1.py",
+    "symbol": "test_supercooled_flash_conserves_water_and_uses_liquid_saturation"
+  }
+}

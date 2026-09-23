@@ -1,0 +1,48 @@
+{
+  "unit_tests": {
+    "passed": 23,
+    "command": "python -m pytest tests -q -p no:cacheprovider"
+  },
+  "visual_QA": "Final six-panel PNG inspected; legends and axes legible, no overlaps",
+  "point_count": 368,
+  "recomputed_metrics": [
+    {
+      "temperature_C": -20,
+      "recomputed_voltage_RMSE": 0.030008356204982344
+    },
+    {
+      "temperature_C": -25,
+      "recomputed_voltage_RMSE": 0.02847555901953344
+    }
+  ],
+  "model_source_sha256": {
+    "calibrate.py": "8d8ae2dd40e743b05b2c28b17c4df6868733e35db81dfbf8e43e5076fd00a800",
+    "cli.py": "f4b8f5f361c73505074dabdcc87b9fdc1b9b15ec7115c70528025667bc9e0317",
+    "completion.py": "4fc657c6891cae903fff4ad0a074e8cd97c80c559ed01fe24c5bdc01e1eae907",
+    "config.py": "ecfa9036e9590b05af909974c8132411351bb3d01a574fd9e587bdd460c3faae",
+    "energy_extension.py": "aa7ccae38eff451bf04b97ea31ee0c89f02dc00286987c1ecdfa55798484455d",
+    "evaluate.py": "926eca69358117f7a8f02fcf51d81ca1731142169491b2e5795d4c1e7d531f26",
+    "feedback.py": "c7e9d3f6516d734d4262aaa2316bdf5abd93bd0f099c671aeb14991313dcf1b0",
+    "figures.py": "024f1d05dd82327b8c02c64cc08be819bc502cd08521bdcf3c5a71846e815635",
+    "geometry.py": "5de40c5c3e9ba6df7d57619fe7c1e1111c6e798fd660f678a106f4c43d5d9635",
+    "identifiability.py": "697b14211e2d82b254ef3394b1228a0b23a3a771360acb4151355d7b2d415965",
+    "io.py": "4b8cb311ca0867981c95c4e180a545eb874500afa6c684cced5d9a3c706dcffc",
+    "model.py": "ef8f1765b5493bcc880052df6a58acfbedc5b6b9d19b94c88d30ab74f60a08d0",
+    "optimize.py": "6b9fb618f2d475236b53708c6836ee610a4981bcccbd1a74c6a1cf127b727aad",
+    "pipeline.py": "df05d4bd96ba54cb933c65609b22ba801d712aedc088323f35baec76ca5c05eb",
+    "precool.py": "9f4786a02d16d7d8694b2f68327394f8a782c6af846b43d754c1d09d23df90ff",
+    "preflight.py": "f724ce3903aacef0db3e3492f7c5c528c10028b48f7101a15054047ead51d9fa",
+    "properties.py": "0fa704a12b0bee44594f4a983b616dc30f6884c135e26d366fbd2d3d07949831",
+    "protocols.py": "ee0a4e1dd52d5d082ad3fee9eeda455ff1230c52e542f375c573b48c00ac2fb2",
+    "q4.py": "330d4f4d29f4bcdb81839ff7e1cd5c7eb2082ba0b2b366b598f2e1130caeb053",
+    "reference_table.py": "a644a956ff14fb75058ec9f92b0d8317fd7a840ba586db706f5fec6c8465c70d",
+    "report.py": "dacdc484d6c31bc04cd2e001ef4a1b321d31bc2579cf0b9929973b31a644c136",
+    "solver.py": "6b2faa39f6070324d2d1c58cdd396c0b77ea97947e2d3015919faa3cdf43758b",
+    "tables.py": "ab5808de57ebd1cf1e74c4d1dcf9e1cb5a695e024241bef0fb1fb9043cc61eb3",
+    "uncertainty.py": "f0123ab767aaf1d908b81c2a50bd570beab20d4eab54173aa35d41dddaaea955",
+    "verification.py": "4669d3e9a53d152e0cdd1857aa29a9b48d4a520f3e620d52250859b6cc53af6b",
+    "__init__.py": "3b89bad250dac7db06c7f61c8e05d111c5f37f52134900d2e559bfaf80f1fdf2"
+  },
+  "candidate": "shape_joint",
+  "prediction_qualified": false
+}

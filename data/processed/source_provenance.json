@@ -1,0 +1,2726 @@
+{
+  "sha256": "982dd5c1f141a1c76438e8b165c3d049c82ac9ef4b4b416eb740181ca592447f",
+  "parameters": [
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C2",
+      "category": "几何参数",
+      "name": "燃料电池活化面积",
+      "raw_value": 25,
+      "unit": "cm^2",
+      "note": "用于电流/电流密度换算和电池面积设定"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C3",
+      "category": "几何参数",
+      "name": "端板厚度",
+      "raw_value": "0.01",
+      "unit": "m",
+      "note": "电堆两端的端板厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C4",
+      "category": "几何参数",
+      "name": "阳极双极板厚度",
+      "raw_value": 0.002,
+      "unit": "m",
+      "note": "阳极侧 BP 厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C5",
+      "category": "几何参数",
+      "name": "阴极双极板厚度",
+      "raw_value": 0.002,
+      "unit": "m",
+      "note": "阴极侧 BP 厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C6",
+      "category": "几何参数",
+      "name": "阳极 GDL 厚度",
+      "raw_value": 0.00015,
+      "unit": "m",
+      "note": "阳极气体扩散层厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C7",
+      "category": "几何参数",
+      "name": "阴极 GDL 厚度",
+      "raw_value": 0.00015,
+      "unit": "m",
+      "note": "阴极气体扩散层厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C8",
+      "category": "几何参数",
+      "name": "阳极 CL 厚度",
+      "raw_value": 3.4e-06,
+      "unit": "m",
+      "note": "阳极催化层厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C9",
+      "category": "几何参数",
+      "name": "阴极 CL 厚度",
+      "raw_value": 1.13e-05,
+      "unit": "m",
+      "note": "阴极催化层厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C10",
+      "category": "几何参数",
+      "name": "质子交换膜厚度",
+      "raw_value": 1.2e-05,
+      "unit": "m",
+      "note": "膜厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C11",
+      "category": "多孔介质",
+      "name": "阳极 GDL 孔隙率",
+      "raw_value": 0.8,
+      "unit": "-",
+      "note": "阳极 GDL 多孔介质孔隙率"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C12",
+      "category": "多孔介质",
+      "name": "阴极 GDL 孔隙率",
+      "raw_value": 0.8,
+      "unit": "-",
+      "note": "阴极 GDL 多孔介质孔隙率"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C13",
+      "category": "多孔介质",
+      "name": "阳极 CL 孔隙率",
+      "raw_value": 0.3916,
+      "unit": "-",
+      "note": "阳极催化层孔隙率"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C14",
+      "category": "多孔介质",
+      "name": "阴极 CL 孔隙率",
+      "raw_value": 0.4207,
+      "unit": "-",
+      "note": "阴极催化层孔隙率"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C15",
+      "category": "多孔介质",
+      "name": "GDL 接触角",
+      "raw_value": 110,
+      "unit": "deg",
+      "note": "用于毛细压和液态水迁移计算"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C16",
+      "category": "多孔介质",
+      "name": "CL 接触角",
+      "raw_value": 100,
+      "unit": "deg",
+      "note": "用于催化层毛细压和液态水迁移计算"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C17",
+      "category": "多孔介质",
+      "name": "GDL 液态水渗透率常数",
+      "raw_value": 6.2e-12,
+      "unit": "m^2",
+      "note": "GDL 区域液态水迁移相关常数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C18",
+      "category": "多孔介质",
+      "name": "CL 液态水渗透率常数",
+      "raw_value": 6.2e-13,
+      "unit": "m^2",
+      "note": "CL 区域液态水迁移相关常数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C19",
+      "category": "多孔介质",
+      "name": "有效导热系数",
+      "raw_value": "由孔隙率、相含量和材料导热系数计算",
+      "unit": "W/(m·K)",
+      "note": "不同区域按固体、气体、液态水、冰等体积分数加权计算"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C20",
+      "category": "电化学参数",
+      "name": "初始开路电压",
+      "raw_value": 0.95,
+      "unit": "V",
+      "note": "用于零时刻电压曲线起点"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C21",
+      "category": "电化学参数",
+      "name": "电化学参考温度",
+      "raw_value": 298.15,
+      "unit": "K",
+      "note": "用于 Nernst 电压和交换电流密度温度修正"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C22",
+      "category": "电化学参数",
+      "name": "阴极冰覆盖活性面积指数",
+      "raw_value": 3.5,
+      "unit": "-",
+      "note": "控制 CCL 冰覆盖对有效反应面积的影响强度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C23",
+      "category": "电化学参数",
+      "name": "首尾电池浓差极化系数",
+      "raw_value": 10,
+      "unit": "-",
+      "note": "用于首尾电池浓差极化修正"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C24",
+      "category": "电化学参数",
+      "name": "中间电池浓差极化系数",
+      "raw_value": 1,
+      "unit": "-",
+      "note": "用于中间电池浓差极化修正"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C25",
+      "category": "膜参数",
+      "name": "质子交换膜厚度",
+      "raw_value": 1.2e-05,
+      "unit": "m",
+      "note": "膜区域厚度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C26",
+      "category": "膜参数",
+      "name": "膜密度",
+      "raw_value": 2150,
+      "unit": "kg/m^3",
+      "note": "膜/离聚物含水量计算使用"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C27",
+      "category": "膜参数",
+      "name": "膜当量质量",
+      "raw_value": 1000,
+      "unit": "g/mol",
+      "note": "用于膜水含量和质量换算"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C28",
+      "category": "膜参数",
+      "name": "初始膜含水量",
+      "raw_value": 3,
+      "unit": "lambda",
+      "note": "初始膜内水含量"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C29",
+      "category": "膜参数",
+      "name": "CL 离聚物体积分数",
+      "raw_value": 0.3,
+      "unit": "-",
+      "note": "阳极/阴极 CL 中离聚物体积分数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C30",
+      "category": "热物性参数",
+      "name": "水蒸气物性",
+      "raw_value": "4.8e-3; 2000; 0.1",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "水蒸气密度、比热容、导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C31",
+      "category": "热物性参数",
+      "name": "冰物性",
+      "raw_value": "920; 2050; 2.3",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "冰密度、比热容、导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C32",
+      "category": "热物性参数",
+      "name": "液态水物性",
+      "raw_value": "990; 4182; 0.6",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "液态水密度、比热容、导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C33",
+      "category": "热物性参数",
+      "name": "氢气物性",
+      "raw_value": "0.089; 14283; 0.1672",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "氢气密度、比热容、导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C34",
+      "category": "热物性参数",
+      "name": "氧气物性",
+      "raw_value": "1.43; 919.31; 0.0246",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "氧气密度、比热容、导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C35",
+      "category": "热物性参数",
+      "name": "氮气物性",
+      "raw_value": "1.35; 1041.5; 0.0235",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "氮气密度、比热容、导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C36",
+      "category": "热物性参数",
+      "name": "离聚物物性",
+      "raw_value": "2150; 1050; 0.24",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "离聚物密度、比热容、导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C37",
+      "category": "热物性参数",
+      "name": "双极板物性",
+      "raw_value": "1980; 766; 95; 83000",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K); S/m",
+      "note": "BP 密度、比热、导热系数和电导率"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C38",
+      "category": "热物性参数",
+      "name": "GDL 物性",
+      "raw_value": "185; 545; 0.3; 375",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K); S/m",
+      "note": "GDL 密度、比热、导热系数和电导率"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C39",
+      "category": "热物性参数",
+      "name": "CL 物性",
+      "raw_value": "970; 240; 0.27",
+      "unit": "kg/m^3; J/(kg·K); W/(m·K)",
+      "note": "CL 密度、比热和导热系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C40",
+      "category": "端板热物性",
+      "name": "密度",
+      "raw_value": "7900",
+      "unit": "kg/m^3",
+      "note": null
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C41",
+      "category": "端板热物性",
+      "name": "比热容",
+      "raw_value": "500 ",
+      "unit": "J/(kg·K)",
+      "note": null
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C42",
+      "category": "端板热物性",
+      "name": "导热系数",
+      "raw_value": "15",
+      "unit": "W/(m·K)",
+      "note": null
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C43",
+      "category": "热物性参数",
+      "name": "端板与外界对流换热系数",
+      "raw_value": 40,
+      "unit": "W/(m^2·K)",
+      "note": "首尾端板与环境换热边界条件"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C44",
+      "category": "热物性参数",
+      "name": "水凝结潜热",
+      "raw_value": 2500000,
+      "unit": "J/kg",
+      "note": "水蒸气凝结/蒸发热源项"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C45",
+      "category": "热物性参数",
+      "name": "水冻结潜热",
+      "raw_value": 333600,
+      "unit": "J/kg",
+      "note": "液态水冻结/冰融化热源项"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C46",
+      "category": "水传输参数",
+      "name": "膜水-水蒸气转化系数",
+      "raw_value": "0.001; 1.0",
+      "unit": "-",
+      "note": "膜水和气相水之间转化"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C47",
+      "category": "水传输参数",
+      "name": "膜水-液态水转化系数",
+      "raw_value": 0.5,
+      "unit": "-",
+      "note": "膜水和液态水之间转化"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C48",
+      "category": "水传输参数",
+      "name": "膜水-冰转化系数",
+      "raw_value": 1,
+      "unit": "-",
+      "note": "膜水冻结/融化相关系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C49",
+      "category": "水传输参数",
+      "name": "水蒸气-液态水相变系数",
+      "raw_value": "1.0; 1.0",
+      "unit": "-",
+      "note": "冷凝和蒸发源项系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C50",
+      "category": "水传输参数",
+      "name": "水蒸气-冰相变系数",
+      "raw_value": 0.0001,
+      "unit": "-",
+      "note": "低温下水蒸气直接成冰源项系数"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C51",
+      "category": "运行参数",
+      "name": "初始电堆温度",
+      "raw_value": 253.15,
+      "unit": "K",
+      "note": "冷启动初始温度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C52",
+      "category": "运行参数",
+      "name": "环境温度",
+      "raw_value": 253.15,
+      "unit": "K",
+      "note": "端板对流换热环境温度"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C53",
+      "category": "运行参数",
+      "name": "阳极入口水蒸气质量分数",
+      "raw_value": 0,
+      "unit": "-",
+      "note": "入口干氢气，默认无水蒸气"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C54",
+      "category": "运行参数",
+      "name": "阴极入口水蒸气质量分数",
+      "raw_value": 0,
+      "unit": "-",
+      "note": "入口干空气，默认无水蒸气"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C55",
+      "category": "运行参数",
+      "name": "初始液态水",
+      "raw_value": "0",
+      "unit": "-",
+      "note": "启动前已经过吹扫"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C56",
+      "category": "运行参数",
+      "name": "初始冰体积分数",
+      "raw_value": "0",
+      "unit": "-",
+      "note": "启动前已经过吹扫"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C57",
+      "category": "运行参数",
+      "name": "初始压力及操作压力",
+      "raw_value": 101325,
+      "unit": "Pa",
+      "note": "电化学和气相源项中使用的压力"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C58",
+      "category": "运行参数",
+      "name": "阳极入口氢气质量分数",
+      "raw_value": 1,
+      "unit": "-",
+      "note": "阳极入口纯氢"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C59",
+      "category": "运行参数",
+      "name": "阴极入口氧气质量分数",
+      "raw_value": 0.233,
+      "unit": "-",
+      "note": "阴极入口干空气氧气组分"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C60",
+      "category": "运行参数",
+      "name": "阴极入口氮气质量分数",
+      "raw_value": 0.767,
+      "unit": "-",
+      "note": "阴极入口干空气氮气组分"
+    },
+    {
+      "source_workbook": "附件1.xlsx",
+      "source_cell": "参数清单!C61",
+      "category": "运行参数",
+      "name": "残差收敛标准",
+      "raw_value": 1e-06,
+      "unit": "-",
+      "note": "控制方程最大残差收敛阈值"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "时间/s",
+        "实验电压/V",
+        "模型电压/V",
+        "电压相对误差/%",
+        "实验温度/℃",
+        "模型温度/℃",
+        "温度相对误差/%",
+        "模型最大冰体积分数"
+      ],
+      [
+        "0",
+        "0.799",
+        "",
+        "",
+        "-20",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "0.801",
+        "",
+        "",
+        "-19.96",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10",
+        "0.538",
+        "",
+        "",
+        "-19.65",
+        "",
+        "",
+        ""
+      ],
+      [
+        "15",
+        "0.521",
+        "",
+        "",
+        "-18.41",
+        "",
+        "",
+        ""
+      ],
+      [
+        "20",
+        "0.599",
+        "",
+        "",
+        "-17.08",
+        "",
+        "",
+        ""
+      ],
+      [
+        "25",
+        "0.626",
+        "",
+        "",
+        "-15.90",
+        "",
+        "",
+        ""
+      ],
+      [
+        "30",
+        "0.633",
+        "",
+        "",
+        "-14.27",
+        "",
+        "",
+        ""
+      ],
+      [
+        "35",
+        "0.666",
+        "",
+        "",
+        "-12.67",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "时间/s",
+        "实验电压/V",
+        "模型电压/V",
+        "电压相对误差/%",
+        "实验温度/℃",
+        "模型温度/℃",
+        "温度相对误差/%",
+        "模型最大冰体积分数"
+      ],
+      [
+        "0",
+        "0.799",
+        "",
+        "",
+        "-25",
+        "",
+        "",
+        ""
+      ],
+      [
+        "5",
+        "0.800",
+        "",
+        "",
+        "-24.96",
+        "",
+        "",
+        ""
+      ],
+      [
+        "10",
+        "0.537",
+        "",
+        "",
+        "-24.65",
+        "",
+        "",
+        ""
+      ],
+      [
+        "15",
+        "0.518",
+        "",
+        "",
+        "-23.38",
+        "",
+        "",
+        ""
+      ],
+      [
+        "20",
+        "0.592",
+        "",
+        "",
+        "-22.03",
+        "",
+        "",
+        ""
+      ],
+      [
+        "25",
+        "0.618",
+        "",
+        "",
+        "-20.85",
+        "",
+        "",
+        ""
+      ],
+      [
+        "30",
+        "0.621",
+        "",
+        "",
+        "-19.20",
+        "",
+        "",
+        ""
+      ],
+      [
+        "35",
+        "0.644",
+        "",
+        "",
+        "-17.59",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "加载策略",
+        "最优加载参数",
+        "启动时间/s",
+        "累计电荷量/C·cm-2",
+        "最大电流密度/A·cm-2",
+        "最低电压/V",
+        "最大冰体积分数",
+        "启动结果"
+      ],
+      [
+        "恒流策略",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "线性升载",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "分段阶梯加载",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "辅助冷启动策略",
+        "加热功率密度分配/W·cm-2",
+        "加热持续时间/s",
+        "各片辅助加热能耗/J",
+        "总辅助加热能耗/J",
+        "总启动时间/s",
+        "最大冰体积分数",
+        "启动结果"
+      ],
+      [
+        "纯预加热启动",
+        "(q1​, q2, q3​, q4​, q5​)",
+        "",
+        "(E1​, E2, E3​, E4​, E5​)",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "恒定功率协同启动",
+        "(q1​, q2, q3​, q4​, q5​)",
+        "",
+        "(E1​, E2, E3​, E4​, E5​)",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "工况",
+        "控制策略",
+        "功率控制策略/W·cm-2",
+        "启动时间/s",
+        "辅助加热总能耗/J",
+        "最大温差/℃",
+        "最低单片电压/V",
+        "最大冰体积分数",
+        "启动结果"
+      ],
+      [
+        "工况1",
+        "恒功率策略",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "工况1",
+        "动态功率策略",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "工况2",
+        "恒功率策略",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "工况2",
+        "动态功率策略",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "工况3",
+        "恒功率策略",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "工况3",
+        "动态功率策略",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  "formulas": [
+    {
+      "sheet": "-20℃",
+      "row": 3,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 4,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 5,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 6,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 7,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 8,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 9,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 10,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 11,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 12,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 13,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 14,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 15,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 16,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 17,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 18,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 19,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 20,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 21,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 22,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 23,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 24,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 25,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 26,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 27,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 28,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 29,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 30,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 31,
+      "formula": 0.007
+    },
+    {
+      "sheet": "-20℃",
+      "row": 32,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 33,
+      "formula": 0.006
+    },
+    {
+      "sheet": "-20℃",
+      "row": 34,
+      "formula": 0.005
+    },
+    {
+      "sheet": "-20℃",
+      "row": 35,
+      "formula": 0.01
+    },
+    {
+      "sheet": "-20℃",
+      "row": 36,
+      "formula": 0.015
+    },
+    {
+      "sheet": "-20℃",
+      "row": 37,
+      "formula": 0.02
+    },
+    {
+      "sheet": "-20℃",
+      "row": 38,
+      "formula": 0.025
+    },
+    {
+      "sheet": "-20℃",
+      "row": 39,
+      "formula": 0.032
+    },
+    {
+      "sheet": "-20℃",
+      "row": 40,
+      "formula": 0.038
+    },
+    {
+      "sheet": "-20℃",
+      "row": 41,
+      "formula": 0.04
+    },
+    {
+      "sheet": "-20℃",
+      "row": 42,
+      "formula": 0.046
+    },
+    {
+      "sheet": "-20℃",
+      "row": 43,
+      "formula": 0.05
+    },
+    {
+      "sheet": "-20℃",
+      "row": 44,
+      "formula": 0.056
+    },
+    {
+      "sheet": "-20℃",
+      "row": 45,
+      "formula": 0.061
+    },
+    {
+      "sheet": "-20℃",
+      "row": 46,
+      "formula": 0.066
+    },
+    {
+      "sheet": "-20℃",
+      "row": 47,
+      "formula": 0.074
+    },
+    {
+      "sheet": "-20℃",
+      "row": 48,
+      "formula": 0.078
+    },
+    {
+      "sheet": "-20℃",
+      "row": 49,
+      "formula": 0.083
+    },
+    {
+      "sheet": "-20℃",
+      "row": 50,
+      "formula": 0.09
+    },
+    {
+      "sheet": "-20℃",
+      "row": 51,
+      "formula": 0.092
+    },
+    {
+      "sheet": "-20℃",
+      "row": 52,
+      "formula": 0.097
+    },
+    {
+      "sheet": "-20℃",
+      "row": 53,
+      "formula": 0.102
+    },
+    {
+      "sheet": "-20℃",
+      "row": 54,
+      "formula": 0.106
+    },
+    {
+      "sheet": "-20℃",
+      "row": 55,
+      "formula": 0.113
+    },
+    {
+      "sheet": "-20℃",
+      "row": 56,
+      "formula": 0.117
+    },
+    {
+      "sheet": "-20℃",
+      "row": 57,
+      "formula": 0.126
+    },
+    {
+      "sheet": "-20℃",
+      "row": 58,
+      "formula": 0.131
+    },
+    {
+      "sheet": "-20℃",
+      "row": 59,
+      "formula": 0.134
+    },
+    {
+      "sheet": "-20℃",
+      "row": 60,
+      "formula": 0.143
+    },
+    {
+      "sheet": "-20℃",
+      "row": 61,
+      "formula": 0.144
+    },
+    {
+      "sheet": "-20℃",
+      "row": 62,
+      "formula": 0.15
+    },
+    {
+      "sheet": "-20℃",
+      "row": 63,
+      "formula": 0.154
+    },
+    {
+      "sheet": "-20℃",
+      "row": 64,
+      "formula": 0.162
+    },
+    {
+      "sheet": "-20℃",
+      "row": 65,
+      "formula": 0.167
+    },
+    {
+      "sheet": "-20℃",
+      "row": 66,
+      "formula": 0.172
+    },
+    {
+      "sheet": "-20℃",
+      "row": 67,
+      "formula": 0.176
+    },
+    {
+      "sheet": "-20℃",
+      "row": 68,
+      "formula": 0.18
+    },
+    {
+      "sheet": "-20℃",
+      "row": 69,
+      "formula": 0.185
+    },
+    {
+      "sheet": "-20℃",
+      "row": 70,
+      "formula": 0.189
+    },
+    {
+      "sheet": "-20℃",
+      "row": 71,
+      "formula": 0.195
+    },
+    {
+      "sheet": "-20℃",
+      "row": 72,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 73,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 74,
+      "formula": 0.201
+    },
+    {
+      "sheet": "-20℃",
+      "row": 75,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 76,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 77,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 78,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 79,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 80,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 81,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 82,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 83,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 84,
+      "formula": 0.201
+    },
+    {
+      "sheet": "-20℃",
+      "row": 85,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 86,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 87,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 88,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 89,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 90,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 91,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 92,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 93,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 94,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 95,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 96,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 97,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 98,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 99,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 100,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 101,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 102,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 103,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 104,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 105,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 106,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 107,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 108,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 109,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 110,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 111,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 112,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 113,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 114,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 115,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 116,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 117,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 118,
+      "formula": 0.201
+    },
+    {
+      "sheet": "-20℃",
+      "row": 119,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 120,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 121,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 122,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 123,
+      "formula": 0.2
+    },
+    {
+      "sheet": "-20℃",
+      "row": 124,
+      "formula": 0.199
+    },
+    {
+      "sheet": "-20℃",
+      "row": 125,
+      "formula": 0.205
+    },
+    {
+      "sheet": "-20℃",
+      "row": 126,
+      "formula": 0.21
+    },
+    {
+      "sheet": "-20℃",
+      "row": 127,
+      "formula": 0.215
+    },
+    {
+      "sheet": "-20℃",
+      "row": 128,
+      "formula": 0.223
+    },
+    {
+      "sheet": "-20℃",
+      "row": 129,
+      "formula": 0.228
+    },
+    {
+      "sheet": "-20℃",
+      "row": 130,
+      "formula": 0.233
+    },
+    {
+      "sheet": "-20℃",
+      "row": 131,
+      "formula": 0.235
+    },
+    {
+      "sheet": "-20℃",
+      "row": 132,
+      "formula": 0.241
+    },
+    {
+      "sheet": "-20℃",
+      "row": 133,
+      "formula": 0.245
+    },
+    {
+      "sheet": "-20℃",
+      "row": 134,
+      "formula": 0.251
+    },
+    {
+      "sheet": "-20℃",
+      "row": 135,
+      "formula": 0.256
+    },
+    {
+      "sheet": "-20℃",
+      "row": 136,
+      "formula": 0.262
+    },
+    {
+      "sheet": "-20℃",
+      "row": 137,
+      "formula": 0.267
+    },
+    {
+      "sheet": "-20℃",
+      "row": 138,
+      "formula": 0.275
+    },
+    {
+      "sheet": "-20℃",
+      "row": 139,
+      "formula": 0.279
+    },
+    {
+      "sheet": "-20℃",
+      "row": 140,
+      "formula": 0.284
+    },
+    {
+      "sheet": "-20℃",
+      "row": 141,
+      "formula": 0.287
+    },
+    {
+      "sheet": "-20℃",
+      "row": 142,
+      "formula": 0.292
+    },
+    {
+      "sheet": "-20℃",
+      "row": 143,
+      "formula": 0.297
+    },
+    {
+      "sheet": "-20℃",
+      "row": 144,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 145,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 146,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 147,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 148,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 149,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 150,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 151,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 152,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 153,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 154,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 155,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 156,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 157,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 158,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 159,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 160,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 161,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 162,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 163,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 164,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 165,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 166,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 167,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 168,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 169,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 170,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 171,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 172,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 173,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 174,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 175,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 176,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 177,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 178,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 179,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 180,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 181,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-20℃",
+      "row": 182,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 183,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 184,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 185,
+      "formula": 0.3
+    },
+    {
+      "sheet": "-20℃",
+      "row": 186,
+      "formula": 0.299
+    },
+    {
+      "sheet": "-25℃",
+      "row": 3,
+      "formula": "=B3/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 4,
+      "formula": "=B4/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 5,
+      "formula": "=B5/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 6,
+      "formula": "=B6/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 7,
+      "formula": "=B7/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 8,
+      "formula": "=B8/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 9,
+      "formula": "=B9/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 10,
+      "formula": "=B10/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 11,
+      "formula": "=B11/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 12,
+      "formula": "=B12/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 13,
+      "formula": "=B13/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 14,
+      "formula": "=B14/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 15,
+      "formula": "=B15/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 16,
+      "formula": "=B16/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 17,
+      "formula": "=B17/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 18,
+      "formula": "=B18/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 19,
+      "formula": "=B19/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 20,
+      "formula": "=B20/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 21,
+      "formula": "=B21/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 22,
+      "formula": "=B22/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 23,
+      "formula": "=B23/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 24,
+      "formula": "=B24/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 25,
+      "formula": "=B25/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 26,
+      "formula": "=B26/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 27,
+      "formula": "=B27/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 28,
+      "formula": "=B28/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 29,
+      "formula": "=B29/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 30,
+      "formula": "=B30/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 31,
+      "formula": "=B31/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 32,
+      "formula": "=B32/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 33,
+      "formula": "=B33/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 34,
+      "formula": "=B34/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 35,
+      "formula": "=B35/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 36,
+      "formula": "=B36/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 37,
+      "formula": "=B37/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 38,
+      "formula": "=B38/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 39,
+      "formula": "=B39/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 40,
+      "formula": "=B40/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 41,
+      "formula": "=B41/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 42,
+      "formula": "=B42/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 43,
+      "formula": "=B43/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 44,
+      "formula": "=B44/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 45,
+      "formula": "=B45/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 46,
+      "formula": "=B46/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 47,
+      "formula": "=B47/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 48,
+      "formula": "=B48/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 49,
+      "formula": "=B49/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 50,
+      "formula": "=B50/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 51,
+      "formula": "=B51/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 52,
+      "formula": "=B52/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 53,
+      "formula": "=B53/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 54,
+      "formula": "=B54/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 55,
+      "formula": "=B55/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 56,
+      "formula": "=B56/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 57,
+      "formula": "=B57/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 58,
+      "formula": "=B58/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 59,
+      "formula": "=B59/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 60,
+      "formula": "=B60/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 61,
+      "formula": "=B61/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 62,
+      "formula": "=B62/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 63,
+      "formula": "=B63/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 64,
+      "formula": "=B64/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 65,
+      "formula": "=B65/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 66,
+      "formula": "=B66/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 67,
+      "formula": "=B67/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 68,
+      "formula": "=B68/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 69,
+      "formula": "=B69/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 70,
+      "formula": "=B70/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 71,
+      "formula": "=B71/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 72,
+      "formula": "=B72/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 73,
+      "formula": "=B73/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 74,
+      "formula": "=B74/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 75,
+      "formula": "=B75/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 76,
+      "formula": "=B76/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 77,
+      "formula": "=B77/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 78,
+      "formula": "=B78/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 79,
+      "formula": "=B79/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 80,
+      "formula": "=B80/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 81,
+      "formula": "=B81/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 82,
+      "formula": "=B82/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 83,
+      "formula": "=B83/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 84,
+      "formula": "=B84/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 85,
+      "formula": "=B85/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 86,
+      "formula": "=B86/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 87,
+      "formula": "=B87/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 88,
+      "formula": "=B88/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 89,
+      "formula": "=B89/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 90,
+      "formula": "=B90/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 91,
+      "formula": "=B91/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 92,
+      "formula": "=B92/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 93,
+      "formula": "=B93/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 94,
+      "formula": "=B94/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 95,
+      "formula": "=B95/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 96,
+      "formula": "=B96/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 97,
+      "formula": "=B97/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 98,
+      "formula": "=B98/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 99,
+      "formula": "=B99/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 100,
+      "formula": "=B100/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 101,
+      "formula": "=B101/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 102,
+      "formula": "=B102/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 103,
+      "formula": "=B103/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 104,
+      "formula": "=B104/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 105,
+      "formula": "=B105/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 106,
+      "formula": "=B106/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 107,
+      "formula": "=B107/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 108,
+      "formula": "=B108/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 109,
+      "formula": "=B109/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 110,
+      "formula": "=B110/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 111,
+      "formula": "=B111/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 112,
+      "formula": "=B112/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 113,
+      "formula": "=B113/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 114,
+      "formula": "=B114/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 115,
+      "formula": "=B115/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 116,
+      "formula": "=B116/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 117,
+      "formula": "=B117/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 118,
+      "formula": "=B118/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 119,
+      "formula": "=B119/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 120,
+      "formula": "=B120/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 121,
+      "formula": "=B121/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 122,
+      "formula": "=B122/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 123,
+      "formula": "=B123/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 124,
+      "formula": "=B124/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 125,
+      "formula": "=B125/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 126,
+      "formula": "=B126/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 127,
+      "formula": "=B127/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 128,
+      "formula": "=B128/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 129,
+      "formula": "=B129/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 130,
+      "formula": "=B130/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 131,
+      "formula": "=B131/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 132,
+      "formula": "=B132/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 133,
+      "formula": "=B133/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 134,
+      "formula": "=B134/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 135,
+      "formula": "=B135/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 136,
+      "formula": "=B136/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 137,
+      "formula": "=B137/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 138,
+      "formula": "=B138/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 139,
+      "formula": "=B139/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 140,
+      "formula": "=B140/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 141,
+      "formula": "=B141/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 142,
+      "formula": "=B142/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 143,
+      "formula": "=B143/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 144,
+      "formula": "=B144/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 145,
+      "formula": "=B145/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 146,
+      "formula": "=B146/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 147,
+      "formula": "=B147/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 148,
+      "formula": "=B148/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 149,
+      "formula": "=B149/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 150,
+      "formula": "=B150/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 151,
+      "formula": "=B151/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 152,
+      "formula": "=B152/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 153,
+      "formula": "=B153/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 154,
+      "formula": "=B154/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 155,
+      "formula": "=B155/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 156,
+      "formula": "=B156/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 157,
+      "formula": "=B157/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 158,
+      "formula": "=B158/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 159,
+      "formula": "=B159/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 160,
+      "formula": "=B160/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 161,
+      "formula": "=B161/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 162,
+      "formula": "=B162/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 163,
+      "formula": "=B163/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 164,
+      "formula": "=B164/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 165,
+      "formula": "=B165/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 166,
+      "formula": "=B166/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 167,
+      "formula": "=B167/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 168,
+      "formula": "=B168/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 169,
+      "formula": "=B169/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 170,
+      "formula": "=B170/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 171,
+      "formula": "=B171/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 172,
+      "formula": "=B172/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 173,
+      "formula": "=B173/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 174,
+      "formula": "=B174/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 175,
+      "formula": "=B175/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 176,
+      "formula": "=B176/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 177,
+      "formula": "=B177/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 178,
+      "formula": "=B178/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 179,
+      "formula": "=B179/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 180,
+      "formula": "=B180/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 181,
+      "formula": "=B181/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 182,
+      "formula": "=B182/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 183,
+      "formula": "=B183/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 184,
+      "formula": "=B184/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 185,
+      "formula": "=B185/303"
+    },
+    {
+      "sheet": "-25℃",
+      "row": 186,
+      "formula": "=B186/303"
+    }
+  ]
+}

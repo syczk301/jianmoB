@@ -1,0 +1,9 @@
+{
+  "samples_per_temperature": 184,
+  "all_observations_included": true,
+  "SVG_editable_text": true,
+  "PDF_font_embedded": true,
+  "visual_review": "两面板中文、图例、误差及曲线正常，无缺字或截断。",
+  "static_linter_resolution": "中文字体与SVG/PDF设置位于共享plot_style模块；导出检查已核实。",
+  "meaning": "模型联合校准回代及网格复算，不声称独立验证通过。"
+}

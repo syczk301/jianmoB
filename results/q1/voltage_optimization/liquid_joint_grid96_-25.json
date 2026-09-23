@@ -1,0 +1,22 @@
+{
+  "name": "liquid_joint_grid96",
+  "temp": -25,
+  "n_MEA": 96,
+  "run": "vverify_liquid_joint_grid96_c9074bac26a4143f91b5",
+  "mass_residual": 1.1934809004259454e-14,
+  "energy_residual": 1.4230664591101396e-15,
+  "complete": true,
+  "V_RMSE": 0.030541115872908125,
+  "T_RMSE": 0.14744491222331135,
+  "V_MAE": 0.024584819807355468,
+  "T_MAE": 0.12327804755261054,
+  "V_min": 0.5049156672536796,
+  "valley_time": 13.6,
+  "valley_time_error": 0.0,
+  "depth": 0.26487067417957677,
+  "recovery": 0.09482349624375697,
+  "depth_error": 0.05212932582042329,
+  "recovery_error": 0.06417650375624306,
+  "dT": 7.555507713550867,
+  "prediction_pass": false
+}

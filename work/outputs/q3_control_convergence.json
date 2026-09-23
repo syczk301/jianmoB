@@ -1,0 +1,16 @@
+[
+  {
+    "mode": "coheat",
+    "run_48": "q3_fine_83e518874025329ed6eb",
+    "run_96": "q3_fine96_104be6fbf1fc0702c795",
+    "status_96": "feasible",
+    "time_difference_s": 0.5842179947879345,
+    "ice_max_48": 0.08050443404002021,
+    "ice_max_96": 0.08772851643596714,
+    "minimum_voltage_difference_V": 0.003284233458734964,
+    "time_pass": true,
+    "ice_relative_difference": 0.08234588580122379,
+    "ice_peak_5pct_pass": false,
+    "voltage_1mV_pass": false
+  }
+]

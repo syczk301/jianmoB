@@ -1,0 +1,15 @@
+{
+  "source_unchanged": true,
+  "observations_per_condition": 184,
+  "all_model_points_used": true,
+  "no_experimental_ice_claim": true,
+  "svg_editable_text": true,
+  "pdf_embedded_font": true,
+  "visual_check": "中文、单位、图例及两温度面板显示正常；无裁切或缺字。",
+  "static_linter_resolution": "字体与可编辑文字设置来自共享plot_style；导出使用循环，实际PNG/SVG/PDF均已验证。",
+  "exports": [
+    "PNG 300 dpi",
+    "PDF",
+    "SVG"
+  ]
+}

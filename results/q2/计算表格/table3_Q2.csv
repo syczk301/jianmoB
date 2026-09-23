@@ -1,0 +1,4 @@
+﻿strategy,status,startup_time_s,E_aux_J,evaluated,failure_reasons,last_valid_min_s,last_valid_max_s
+constant,no_feasible_candidate_found,,,80,"{""voltage"": 4, ""horizon"": 6, ""charge"": 70}",39.999999999999986,300.0
+ramp,no_feasible_candidate_found,,,80,"{""charge"": 79, ""horizon"": 1}",43.11293033677316,300.0
+step,no_feasible_candidate_found,,,80,"{""charge"": 74, ""voltage"": 6}",39.940919721161535,264.3895048180659

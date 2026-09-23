@@ -1,0 +1,120 @@
+{
+  "candidate": "liquid_joint",
+  "replays": [
+    {
+      "name": "liquid_joint_grid48",
+      "temp": -20,
+      "n_MEA": 48,
+      "run": "vverify_liquid_joint_grid48_2b8f4e64e1c66b5da75f",
+      "mass_residual": 1.3285002458021497e-14,
+      "energy_residual": 9.48710972740093e-16,
+      "complete": true,
+      "V_RMSE": 0.029823616184521288,
+      "T_RMSE": 0.3833357705096104,
+      "V_MAE": 0.02696329561033852,
+      "T_MAE": 0.3069365724065633,
+      "V_min": 0.5039073556421076,
+      "valley_time": 13.8,
+      "valley_time_error": 0.20000000000000107,
+      "depth": 0.2848119239667428,
+      "recovery": 0.12843336560248708,
+      "depth_error": 0.03018807603325724,
+      "recovery_error": 0.060566634397512975,
+      "dT": 6.9385596098680935,
+      "prediction_pass": false
+    },
+    {
+      "name": "liquid_joint_grid48",
+      "temp": -25,
+      "n_MEA": 48,
+      "run": "vverify_liquid_joint_grid48_1d6d495a9583b5ce7193",
+      "mass_residual": 9.871797583352984e-14,
+      "energy_residual": 5.692265836440559e-16,
+      "complete": true,
+      "V_RMSE": 0.0286297684289295,
+      "T_RMSE": 0.15728873965955767,
+      "V_MAE": 0.023422914252089623,
+      "T_MAE": 0.12952999778510083,
+      "V_min": 0.5056870651606675,
+      "valley_time": 13.6,
+      "valley_time_error": 0.0,
+      "depth": 0.2640992762725892,
+      "recovery": 0.09936815104226082,
+      "depth_error": 0.05290072372741084,
+      "recovery_error": 0.05963184895773921,
+      "dT": 7.5192224565261085,
+      "prediction_pass": false
+    },
+    {
+      "name": "liquid_joint_grid96",
+      "temp": -20,
+      "n_MEA": 96,
+      "run": "vverify_liquid_joint_grid96_33c8322887917504720a",
+      "mass_residual": 5.922382942811968e-15,
+      "energy_residual": 2.134599688665209e-15,
+      "complete": true,
+      "V_RMSE": 0.0307600313566494,
+      "T_RMSE": 0.3805774532744418,
+      "V_MAE": 0.027663638188718948,
+      "T_MAE": 0.30550144368909715,
+      "V_min": 0.5033694473601867,
+      "valley_time": 13.8,
+      "valley_time_error": 0.20000000000000107,
+      "depth": 0.28534983224866317,
+      "recovery": 0.1262741258487995,
+      "depth_error": 0.029650167751336887,
+      "recovery_error": 0.06272587415120057,
+      "dT": 6.949350268052058,
+      "prediction_pass": false
+    },
+    {
+      "name": "liquid_joint_grid96",
+      "temp": -25,
+      "n_MEA": 96,
+      "run": "vverify_liquid_joint_grid96_c9074bac26a4143f91b5",
+      "mass_residual": 1.1934809004259454e-14,
+      "energy_residual": 1.4230664591101396e-15,
+      "complete": true,
+      "V_RMSE": 0.030541115872908125,
+      "T_RMSE": 0.14744491222331135,
+      "V_MAE": 0.024584819807355468,
+      "T_MAE": 0.12327804755261054,
+      "V_min": 0.5049156672536796,
+      "valley_time": 13.6,
+      "valley_time_error": 0.0,
+      "depth": 0.26487067417957677,
+      "recovery": 0.09482349624375697,
+      "depth_error": 0.05212932582042329,
+      "recovery_error": 0.06417650375624306,
+      "dT": 7.555507713550867,
+      "prediction_pass": false
+    }
+  ],
+  "grid_checks": [
+    {
+      "temp": -20,
+      "grid_pair": [
+        48,
+        96
+      ],
+      "max_V_difference": 0.002838347133628072,
+      "max_T_difference": 0.010913921839801333,
+      "pass_": false
+    },
+    {
+      "temp": -25,
+      "grid_pair": [
+        48,
+        96
+      ],
+      "max_V_difference": 0.005569865492854764,
+      "max_T_difference": 0.03628525702478669,
+      "pass_": false
+    }
+  ],
+  "legacy_max_difference": {
+    "V": 0.0,
+    "T": 0.0,
+    "ice": 0.0
+  }
+}

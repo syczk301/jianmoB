@@ -1,0 +1,519 @@
+[
+  {
+    "search": "q2_constant_search",
+    "original": "q2_constant_cca4975c6f65117703f9",
+    "horizon_s": 600,
+    "case_hash": "40df5119cc7b8f4c",
+    "feasibility": "infeasible",
+    "stop_reason": "charge",
+    "success_time": null,
+    "last_valid_time": 325.77319587628546,
+    "th_startup": 0.0,
+    "startup_result": "charge",
+    "shutdown_status": "charge",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "charge_C_cm2": 20.0,
+    "wall_s": 7.706237200007308,
+    "nfev": 1526,
+    "mass_residual": 5.73967735640485e-14,
+    "energy_residual": 6.899331339003042e-16,
+    "exception": null,
+    "V_min": 0.6791362510471338,
+    "ice_max": 1.7156636200983521e-19,
+    "delta_T_max": 1.594613746450193,
+    "shutdown_extrema": {
+      "V_min": 0.6791362510471338,
+      "ice_max": 1.7156636200983521e-19,
+      "delta_T_max": 1.594613746450193
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "charge",
+        "wall_s": 7.706237200007308
+      }
+    ],
+    "candidate_id": "horizon_extension_9e87cbd088d6829e22dc",
+    "numerically_accepted": true,
+    "config_requested": "40df5119cc7b8f4c",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q2_ramp_search",
+    "original": "q2_ramp_dde061be1682f9f90abb",
+    "horizon_s": 600,
+    "case_hash": "40df5119cc7b8f4c",
+    "feasibility": "infeasible",
+    "stop_reason": "charge",
+    "success_time": null,
+    "last_valid_time": 464.77618918523297,
+    "th_startup": 0.0,
+    "startup_result": "charge",
+    "shutdown_status": "charge",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "charge_C_cm2": 20.0,
+    "wall_s": 8.644420100026764,
+    "nfev": 2114,
+    "mass_residual": 1.8653808531640176e-14,
+    "energy_residual": 7.960766929618894e-16,
+    "exception": null,
+    "V_min": 0.674837190095059,
+    "ice_max": 2.239336644508941e-20,
+    "delta_T_max": 1.177274436780806,
+    "shutdown_extrema": {
+      "V_min": 0.674837190095059,
+      "ice_max": 2.239336644508941e-20,
+      "delta_T_max": 1.177274436780806
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "charge",
+        "wall_s": 8.644420100026764
+      }
+    ],
+    "candidate_id": "horizon_extension_7a6b11ff5bb47cec2d60",
+    "numerically_accepted": true,
+    "config_requested": "40df5119cc7b8f4c",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q3_coheat_search",
+    "original": "q3_refine_coheat_35f3dacab2c617a2d07d",
+    "horizon_s": 600,
+    "case_hash": "aa244120c5becdce",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 300.0222369955635,
+    "last_valid_time": 300.0222369955635,
+    "th_startup": 22.515659902688043,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 1771.7991865034244,
+    "E_cells_J": [
+      382.71294533939624,
+      493.44797231572767,
+      64.955755688874,
+      413.8503050789089,
+      416.8322080805176
+    ],
+    "charge_C_cm2": 81.00668637435732,
+    "wall_s": 62.542549400008284,
+    "nfev": 7543,
+    "mass_residual": 7.001243817232032e-12,
+    "energy_residual": 1.8398216904008112e-15,
+    "exception": null,
+    "V_min": 0.5279700562249303,
+    "ice_max": 0.0610463578087788,
+    "delta_T_max": 11.263462621867859,
+    "E_aux_to_success_J": 1771.7991865034244,
+    "shutdown_extrema": {
+      "V_min": 0.5279700562249303,
+      "ice_max": 0.0610463578087788,
+      "delta_T_max": 11.263462621867859
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 62.542549400008284
+      }
+    ],
+    "candidate_id": "horizon_extension_15d652674e2936a99c34",
+    "numerically_accepted": true,
+    "config_requested": "aa244120c5becdce",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q3_coheat_domain_extension",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heat_off": 0.0,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    },
+    "horizon_s": 600,
+    "case_hash": "aa244120c5becdce",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 360.84856594064706,
+    "last_valid_time": 360.84856594064706,
+    "th_startup": 0.0,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "charge_C_cm2": 99.25458572637832,
+    "wall_s": 80.1690179000143,
+    "nfev": 7820,
+    "mass_residual": 2.6353825410320293e-13,
+    "energy_residual": 1.132197963323576e-15,
+    "exception": null,
+    "V_min": 0.4736850444999547,
+    "ice_max": 0.1313669809327868,
+    "delta_T_max": 7.346960531069044,
+    "E_aux_to_success_J": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.4736850444999547,
+      "ice_max": 0.1313669809327868,
+      "delta_T_max": 7.346960531069044
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 80.1690179000143
+      }
+    ],
+    "candidate_id": "q3_domain_extension_276117ce96e27a7444c1",
+    "numerically_accepted": true,
+    "config_requested": "aa244120c5becdce",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q3_coheat_domain_extension",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "heat_off": 40,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    },
+    "horizon_s": 600,
+    "case_hash": "aa244120c5becdce",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 352.6688068738241,
+    "last_valid_time": 352.6688068738241,
+    "th_startup": 40,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 249.99999999994105,
+    "E_cells_J": [
+      49.99999999998821,
+      49.99999999998821,
+      49.99999999998821,
+      49.99999999998821,
+      49.99999999998821
+    ],
+    "charge_C_cm2": 96.80066285130759,
+    "wall_s": 74.71122019999893,
+    "nfev": 7816,
+    "mass_residual": 6.49794570364724e-13,
+    "energy_residual": 9.90673217908129e-16,
+    "exception": null,
+    "V_min": 0.48276514312104946,
+    "ice_max": 0.11917702708408077,
+    "delta_T_max": 7.518193767830098,
+    "E_aux_to_success_J": 249.99999999994108,
+    "shutdown_extrema": {
+      "V_min": 0.48276514312104946,
+      "ice_max": 0.11917702708408077,
+      "delta_T_max": 7.518193767830098
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 74.71122019999893
+      }
+    ],
+    "candidate_id": "q3_domain_extension_a128776a7208f0229985",
+    "numerically_accepted": true,
+    "config_requested": "aa244120c5becdce",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q3_coheat_domain_extension",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "heat_off": 40,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    },
+    "horizon_s": 600,
+    "case_hash": "aa244120c5becdce",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 344.27991092690115,
+    "last_valid_time": 344.27991092690115,
+    "th_startup": 40,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 500.00000000007503,
+    "E_cells_J": [
+      100.000000000015,
+      100.000000000015,
+      100.000000000015,
+      100.000000000015,
+      100.000000000015
+    ],
+    "charge_C_cm2": 94.2840010134107,
+    "wall_s": 77.18313540000236,
+    "nfev": 8156,
+    "mass_residual": 7.072682902080973e-12,
+    "energy_residual": 1.5567721995699172e-15,
+    "exception": null,
+    "V_min": 0.491239045322585,
+    "ice_max": 0.10672465337708699,
+    "delta_T_max": 7.69807338433634,
+    "E_aux_to_success_J": 500.00000000007503,
+    "shutdown_extrema": {
+      "V_min": 0.491239045322585,
+      "ice_max": 0.10672465337708699,
+      "delta_T_max": 7.69807338433634
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 77.18313540000236
+      }
+    ],
+    "candidate_id": "q3_domain_extension_7583f62fb8388bd13a2a",
+    "numerically_accepted": true,
+    "config_requested": "aa244120c5becdce",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q3_coheat_domain_extension",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.36346048009797965,
+        0.4869861885170958,
+        0.23720214445852073,
+        0.05441455251695175,
+        0.16216771063753108
+      ],
+      "heat_off": 26.730722572437625,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    },
+    "horizon_s": 600,
+    "case_hash": "aa244120c5becdce",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 329.8090103154386,
+    "last_valid_time": 329.8090103154386,
+    "th_startup": 26.730722572437625,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 871.5759767251113,
+    "E_cells_J": [
+      242.88903148860155,
+      325.4373175464819,
+      158.5146179276992,
+      36.36350768084933,
+      108.37150208147936
+    ],
+    "charge_C_cm2": 89.94271636206247,
+    "wall_s": 81.21518179995473,
+    "nfev": 8279,
+    "mass_residual": 1.0229538705441178e-11,
+    "energy_residual": 2.6889701628934932e-15,
+    "exception": null,
+    "V_min": 0.5105379379196632,
+    "ice_max": 0.09543478846079195,
+    "delta_T_max": 9.40462383653039,
+    "E_aux_to_success_J": 871.5759767251112,
+    "shutdown_extrema": {
+      "V_min": 0.5105379379196632,
+      "ice_max": 0.09543478846079195,
+      "delta_T_max": 9.40462383653039
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 81.21518179995473
+      }
+    ],
+    "candidate_id": "q3_domain_extension_d01ab6f45c01eba64082",
+    "numerically_accepted": true,
+    "config_requested": "aa244120c5becdce",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q3_coheat_domain_extension",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.5451907201469695,
+        0.7304792827756437,
+        0.3558032166877811,
+        0.08162182877542762,
+        0.2432515659562966
+      ],
+      "heat_off": 26.730722572437625,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    },
+    "horizon_s": 600,
+    "case_hash": "aa244120c5becdce",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 313.5018645082795,
+    "last_valid_time": 313.5018645082795,
+    "th_startup": 26.730722572437625,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 1307.3639650876703,
+    "E_cells_J": [
+      364.3335472329033,
+      488.15597631972366,
+      237.7719268915497,
+      54.54526152127405,
+      162.55725312221946
+    ],
+    "charge_C_cm2": 85.0505617892683,
+    "wall_s": 73.98533870000392,
+    "nfev": 7807,
+    "mass_residual": 1.785595542238049e-12,
+    "energy_residual": 2.1228711812317052e-15,
+    "exception": null,
+    "V_min": 0.5260376400063573,
+    "ice_max": 0.07543647723031381,
+    "delta_T_max": 13.712474200330206,
+    "E_aux_to_success_J": 1307.36396508767,
+    "shutdown_extrema": {
+      "V_min": 0.5260376400063573,
+      "ice_max": 0.07543647723031381,
+      "delta_T_max": 13.712474200330206
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 73.98533870000392
+      }
+    ],
+    "candidate_id": "q3_domain_extension_fb2d0938948683847a1d",
+    "numerically_accepted": true,
+    "config_requested": "aa244120c5becdce",
+    "code_hash": "904567fd11d251fb"
+  },
+  {
+    "search": "q3_coheat_domain_extension",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.7269209601959593,
+        0.9739723770341916,
+        0.47440428891704145,
+        0.1088291050339035,
+        0.32433542127506215
+      ],
+      "heat_off": 26.730722572437625,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    },
+    "horizon_s": 600,
+    "case_hash": "aa244120c5becdce",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 295.77248621570345,
+    "last_valid_time": 295.77248621570345,
+    "th_startup": 26.730722572437625,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 1743.1519534502258,
+    "E_cells_J": [
+      485.7780629772042,
+      650.8746350929644,
+      317.02923585539924,
+      72.7270153616988,
+      216.7430041629593
+    ],
+    "charge_C_cm2": 79.73177897988545,
+    "wall_s": 47.00301620003302,
+    "nfev": 6365,
+    "mass_residual": 9.413724182646021e-13,
+    "energy_residual": 1.4152474541544702e-15,
+    "exception": null,
+    "V_min": 0.5405374659247708,
+    "ice_max": 0.0550257515461548,
+    "delta_T_max": 18.07018254582087,
+    "E_aux_to_success_J": 1743.151953450226,
+    "shutdown_extrema": {
+      "V_min": 0.5405374659247708,
+      "ice_max": 0.0550257515461548,
+      "delta_T_max": 18.07018254582087
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 47.00301620003302
+      }
+    ],
+    "candidate_id": "q3_domain_extension_e4752971edad70d4e3cb",
+    "numerically_accepted": true,
+    "config_requested": "aa244120c5becdce",
+    "code_hash": "904567fd11d251fb"
+  }
+]

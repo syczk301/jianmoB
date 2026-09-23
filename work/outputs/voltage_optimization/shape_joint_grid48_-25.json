@@ -1,0 +1,22 @@
+{
+  "name": "shape_joint_grid48",
+  "temp": -25,
+  "n_MEA": 48,
+  "run": "vverify_shape_joint_grid48_ecc9055b8c773ba144cd",
+  "mass_residual": 5.525755907904819e-14,
+  "energy_residual": 1.1384531672881118e-15,
+  "complete": true,
+  "V_RMSE": 0.02673160959538276,
+  "T_RMSE": 0.1743968576998254,
+  "V_MAE": 0.0222504069916039,
+  "T_MAE": 0.1415308174366849,
+  "V_min": 0.5054456152850314,
+  "valley_time": 13.6,
+  "valley_time_error": 0.0,
+  "depth": 0.26510065485520906,
+  "recovery": 0.10669408558963467,
+  "depth_error": 0.051899345144791,
+  "recovery_error": 0.05230591441036536,
+  "dT": 7.474987520673523,
+  "prediction_pass": false
+}

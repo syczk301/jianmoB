@@ -1,0 +1,732 @@
+{
+  "candidates": [
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "feasible",
+      "stop_reason": "success",
+      "success_time": 295.77248621570345,
+      "last_valid_time": 295.77248621570345,
+      "th_startup": 26.730722572437625,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 1743.1519534502258,
+      "E_cells_J": [
+        485.7780629772042,
+        650.8746350929644,
+        317.02923585539924,
+        72.7270153616988,
+        216.7430041629593
+      ],
+      "charge_C_cm2": 79.73177897988545,
+      "wall_s": 49.877938899968285,
+      "nfev": 6365,
+      "mass_residual": 9.82700887470558e-13,
+      "energy_residual": 1.4152474541544702e-15,
+      "exception": null,
+      "V_min": 0.5405374659247708,
+      "ice_max": 0.0550257515461548,
+      "delta_T_max": 18.07018254582087,
+      "E_aux_to_success_J": 1743.151953450226,
+      "shutdown_extrema": {
+        "V_min": 0.5405374659247708,
+        "ice_max": 0.0550257515461548,
+        "delta_T_max": 18.07018254582087
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "success",
+          "wall_s": 49.877938899968285
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_01f05f103e6ef6706248",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.7269209601959593,
+          0.9739723770341916,
+          0.47440428891704145,
+          0.1088291050339035,
+          0.32433542127506215
+        ],
+        "heat_off": 26.730722572437625,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "unresolved",
+      "stop_reason": "horizon",
+      "success_time": null,
+      "last_valid_time": 300.0,
+      "th_startup": 0.0,
+      "startup_result": "horizon",
+      "shutdown_status": "unresolved",
+      "E_aux_total_J": 0.0,
+      "E_cells_J": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "charge_C_cm2": 81.00001594418353,
+      "wall_s": 65.1438124999986,
+      "nfev": 7384,
+      "mass_residual": 2.5792275431563097e-13,
+      "energy_residual": 1.132197963323576e-15,
+      "exception": null,
+      "V_min": 0.4736850444999547,
+      "ice_max": 0.1313669809327868,
+      "delta_T_max": 6.494568689530752,
+      "shutdown_extrema": {
+        "V_min": 0.4736850444999547,
+        "ice_max": 0.1313669809327868,
+        "delta_T_max": 6.494568689530752
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "horizon",
+          "wall_s": 65.1438124999986
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_15f23dd2c4d0ff6b995f",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "heat_off": 0.0,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "feasible",
+      "stop_reason": "success",
+      "success_time": 290.8940561069302,
+      "last_valid_time": 290.8940561069302,
+      "th_startup": 40,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 1999.999999999492,
+      "E_cells_J": [
+        399.9999999998984,
+        399.9999999998984,
+        399.9999999998984,
+        399.9999999998984,
+        399.9999999998984
+      ],
+      "charge_C_cm2": 78.26824628460557,
+      "wall_s": 40.89430669997819,
+      "nfev": 5548,
+      "mass_residual": 2.7993625843763994e-12,
+      "energy_residual": 1.5567721995699172e-15,
+      "exception": null,
+      "V_min": 0.5334394721839916,
+      "ice_max": 0.05542876181813515,
+      "delta_T_max": 14.579433988604592,
+      "E_aux_to_success_J": 1999.9999999994923,
+      "shutdown_extrema": {
+        "V_min": 0.5334394721839916,
+        "ice_max": 0.05542876181813515,
+        "delta_T_max": 14.579433988604592
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "success",
+          "wall_s": 40.89430669997819
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_1b34f003764969b429fc",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "heat_off": 40,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "feasible",
+      "stop_reason": "success",
+      "success_time": 212.6601945247695,
+      "last_valid_time": 212.6601945247695,
+      "th_startup": 80,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 3999.999999999493,
+      "E_cells_J": [
+        799.9999999998986,
+        799.9999999998986,
+        799.9999999998986,
+        799.9999999998986,
+        799.9999999998986
+      ],
+      "charge_C_cm2": 54.79807974155497,
+      "wall_s": 19.531801700009964,
+      "nfev": 2549,
+      "mass_residual": 2.7993625843763994e-12,
+      "energy_residual": 1.132197963323576e-15,
+      "exception": null,
+      "V_min": 0.5578379924335065,
+      "ice_max": 0.02685578279820351,
+      "delta_T_max": 24.115154905086456,
+      "E_aux_to_success_J": 3999.999999999493,
+      "shutdown_extrema": {
+        "V_min": 0.5578379924335065,
+        "ice_max": 0.02685578279820351,
+        "delta_T_max": 24.115154905086456
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "success",
+          "wall_s": 19.531801700009964
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_0e6e015bf56e80a113d9",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "heat_off": 80,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "infeasible",
+      "stop_reason": "voltage",
+      "success_time": 118.77617872618013,
+      "last_valid_time": 127.75872328609294,
+      "th_startup": null,
+      "startup_result": "success",
+      "shutdown_status": "voltage",
+      "E_aux_total_J": 6387.936164304141,
+      "E_cells_J": [
+        1277.5872328608282,
+        1277.5872328608282,
+        1277.5872328608282,
+        1277.5872328608282,
+        1277.5872328608282
+      ],
+      "charge_C_cm2": 29.32763836995223,
+      "wall_s": 18.062512100033928,
+      "nfev": 2216,
+      "mass_residual": 2.7993625843763994e-12,
+      "energy_residual": 1.6982969449853642e-15,
+      "exception": null,
+      "V_min": 0.4565677003850042,
+      "ice_max": 0.021704239505961124,
+      "delta_T_max": 28.859247159822758,
+      "E_aux_to_success_J": 5938.808936308498,
+      "shutdown_extrema": {
+        "V_min": 0.29999999899999996,
+        "ice_max": 0.021704239505961124,
+        "delta_T_max": 29.900844653291813
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "voltage",
+          "wall_s": 18.062512100033928
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_1c908a91759057a25aa7",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "heat_off": 160,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "feasible",
+      "stop_reason": "success",
+      "success_time": 232.61172622412948,
+      "last_valid_time": 232.61172622412948,
+      "th_startup": 40,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 3500.0000000000023,
+      "E_cells_J": [
+        700.0000000000005,
+        700.0000000000005,
+        700.0000000000005,
+        700.0000000000005,
+        700.0000000000005
+      ],
+      "charge_C_cm2": 60.783521269223286,
+      "wall_s": 20.894957799988333,
+      "nfev": 2764,
+      "mass_residual": 8.481098114260561e-13,
+      "energy_residual": 5.66098981661788e-16,
+      "exception": null,
+      "V_min": 0.556560773928389,
+      "ice_max": 0.025562205877017633,
+      "delta_T_max": 24.083803045358763,
+      "E_aux_to_success_J": 3500.0000000000023,
+      "shutdown_extrema": {
+        "V_min": 0.556560773928389,
+        "ice_max": 0.025562205877017633,
+        "delta_T_max": 24.083803045358763
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "success",
+          "wall_s": 20.894957799988333
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_9f0a84a67ba013a60703",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7
+        ],
+        "heat_off": 40,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "infeasible",
+      "stop_reason": "voltage",
+      "success_time": null,
+      "last_valid_time": 72.44967410377043,
+      "th_startup": null,
+      "startup_result": "voltage",
+      "shutdown_status": "voltage",
+      "E_aux_total_J": 6339.346484079577,
+      "E_cells_J": [
+        1267.8692968159153,
+        1267.8692968159153,
+        1267.8692968159153,
+        1267.8692968159153,
+        1267.8692968159153
+      ],
+      "charge_C_cm2": 12.734926402557306,
+      "wall_s": 13.90476010000566,
+      "nfev": 1653,
+      "mass_residual": 5.180130746639542e-12,
+      "energy_residual": 4.2457423624634106e-16,
+      "exception": null,
+      "V_min": 0.2999999989999998,
+      "ice_max": 0.0033544583213394913,
+      "delta_T_max": 36.826675485903934,
+      "shutdown_extrema": {
+        "V_min": 0.2999999989999998,
+        "ice_max": 0.0033544583213394913,
+        "delta_T_max": 36.826675485903934
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "voltage",
+          "wall_s": 13.90476010000566
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_51c56c336002e1752e98",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7
+        ],
+        "heat_off": 80,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "infeasible",
+      "stop_reason": "voltage",
+      "success_time": null,
+      "last_valid_time": 72.44967410377043,
+      "th_startup": null,
+      "startup_result": "voltage",
+      "shutdown_status": "voltage",
+      "E_aux_total_J": 6339.346484079577,
+      "E_cells_J": [
+        1267.8692968159153,
+        1267.8692968159153,
+        1267.8692968159153,
+        1267.8692968159153,
+        1267.8692968159153
+      ],
+      "charge_C_cm2": 12.734926402557306,
+      "wall_s": 13.345259700028691,
+      "nfev": 1653,
+      "mass_residual": 5.180130746639542e-12,
+      "energy_residual": 4.2457423624634106e-16,
+      "exception": null,
+      "V_min": 0.2999999989999998,
+      "ice_max": 0.0033544583213394913,
+      "delta_T_max": 36.826675485903934,
+      "shutdown_extrema": {
+        "V_min": 0.2999999989999998,
+        "ice_max": 0.0033544583213394913,
+        "delta_T_max": 36.826675485903934
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "voltage",
+          "wall_s": 13.345259700028691
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_347375538a0947f417d4",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7
+        ],
+        "heat_off": 160,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "feasible",
+      "stop_reason": "success",
+      "success_time": 176.35735774534106,
+      "last_valid_time": 176.35735774534106,
+      "th_startup": 40,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 5000.0,
+      "E_cells_J": [
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "charge_C_cm2": 43.90720732581077,
+      "wall_s": 14.207406800007448,
+      "nfev": 2171,
+      "mass_residual": 3.0561939248225758e-12,
+      "energy_residual": 9.90673217908129e-16,
+      "exception": null,
+      "V_min": 0.46232795043225183,
+      "ice_max": 0.003169293812785783,
+      "delta_T_max": 33.71888738238454,
+      "E_aux_to_success_J": 5000.0,
+      "shutdown_extrema": {
+        "V_min": 0.46232795043225183,
+        "ice_max": 0.003169293812785783,
+        "delta_T_max": 33.71888738238454
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "success",
+          "wall_s": 14.207406800007448
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_d2121d679a0f43330257",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "heat_off": 40,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "infeasible",
+      "stop_reason": "voltage",
+      "success_time": null,
+      "last_valid_time": 47.646920523517416,
+      "th_startup": null,
+      "startup_result": "voltage",
+      "shutdown_status": "voltage",
+      "E_aux_total_J": 5955.865065439677,
+      "E_cells_J": [
+        1191.1730130879355,
+        1191.1730130879355,
+        1191.1730130879355,
+        1191.1730130879355,
+        1191.1730130879355
+      ],
+      "charge_C_cm2": 5.675572588436434,
+      "wall_s": 2.566991899977438,
+      "nfev": 432,
+      "mass_residual": 1.2673253020088011e-14,
+      "energy_residual": 4.2457423624634106e-16,
+      "exception": null,
+      "V_min": 0.2999999990000003,
+      "ice_max": 1.065060092756085e-18,
+      "delta_T_max": 38.50214651289997,
+      "shutdown_extrema": {
+        "V_min": 0.2999999990000003,
+        "ice_max": 1.065060092756085e-18,
+        "delta_T_max": 38.50214651289997
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "voltage",
+          "wall_s": 2.566991899977438
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_8fee408ddb74ae45d346",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "heat_off": 80,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    },
+    {
+      "case_hash": "1a1345c545a423f0",
+      "feasibility": "infeasible",
+      "stop_reason": "voltage",
+      "success_time": null,
+      "last_valid_time": 47.646920523517416,
+      "th_startup": null,
+      "startup_result": "voltage",
+      "shutdown_status": "voltage",
+      "E_aux_total_J": 5955.865065439677,
+      "E_cells_J": [
+        1191.1730130879355,
+        1191.1730130879355,
+        1191.1730130879355,
+        1191.1730130879355,
+        1191.1730130879355
+      ],
+      "charge_C_cm2": 5.675572588436434,
+      "wall_s": 2.6846100999973714,
+      "nfev": 432,
+      "mass_residual": 1.2673253020088011e-14,
+      "energy_residual": 4.2457423624634106e-16,
+      "exception": null,
+      "V_min": 0.2999999990000003,
+      "ice_max": 1.065060092756085e-18,
+      "delta_T_max": 38.50214651289997,
+      "shutdown_extrema": {
+        "V_min": 0.2999999990000003,
+        "ice_max": 1.065060092756085e-18,
+        "delta_T_max": 38.50214651289997
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "voltage",
+          "wall_s": 2.6846100999973714
+        }
+      ],
+      "candidate_id": "q4_constant_reopt_equilibrium_5b10f449526fd9276ed9",
+      "numerically_accepted": true,
+      "config_requested": "1a1345c545a423f0",
+      "code_hash": "904567fd11d251fb",
+      "protocol": {
+        "kind": "fixed",
+        "params": [
+          0.1
+        ],
+        "powers": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "heat_off": 160,
+        "load_start": 0.0,
+        "times": null,
+        "currents": null
+      }
+    }
+  ],
+  "best": {
+    "case_hash": "1a1345c545a423f0",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 295.77248621570345,
+    "last_valid_time": 295.77248621570345,
+    "th_startup": 26.730722572437625,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 1743.1519534502258,
+    "E_cells_J": [
+      485.7780629772042,
+      650.8746350929644,
+      317.02923585539924,
+      72.7270153616988,
+      216.7430041629593
+    ],
+    "charge_C_cm2": 79.73177897988545,
+    "wall_s": 49.877938899968285,
+    "nfev": 6365,
+    "mass_residual": 9.82700887470558e-13,
+    "energy_residual": 1.4152474541544702e-15,
+    "exception": null,
+    "V_min": 0.5405374659247708,
+    "ice_max": 0.0550257515461548,
+    "delta_T_max": 18.07018254582087,
+    "E_aux_to_success_J": 1743.151953450226,
+    "shutdown_extrema": {
+      "V_min": 0.5405374659247708,
+      "ice_max": 0.0550257515461548,
+      "delta_T_max": 18.07018254582087
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 49.877938899968285
+      }
+    ],
+    "candidate_id": "q4_constant_reopt_equilibrium_01f05f103e6ef6706248",
+    "numerically_accepted": true,
+    "config_requested": "1a1345c545a423f0",
+    "code_hash": "904567fd11d251fb",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.7269209601959593,
+        0.9739723770341916,
+        0.47440428891704145,
+        0.1088291050339035,
+        0.32433542127506215
+      ],
+      "heat_off": 26.730722572437625,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    }
+  },
+  "conclusion": "best admissible search-grid candidate; fine replay required"
+}

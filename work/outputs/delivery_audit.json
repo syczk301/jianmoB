@@ -1,0 +1,16 @@
+{
+  "source_sha256": "982dd5c1f141a1c76438e8b165c3d049c82ac9ef4b4b416eb740181ca592447f",
+  "original_unchanged": true,
+  "unit_tests": 18,
+  "original_tables_checked": {
+    "table1_Q1_-20.csv": 8,
+    "table2_Q1_-25.csv": 8,
+    "table3_Q2.csv": 3,
+    "table4_Q3.csv": 2,
+    "table4_Q4.csv": 9
+  },
+  "control_trajectories_checked": 25,
+  "conservation_control_limits_and_energy_sum": true,
+  "cross_temperature_qualified": false,
+  "interpretation": "Delivery integrity passed; predictive qualification is a separate gate"
+}

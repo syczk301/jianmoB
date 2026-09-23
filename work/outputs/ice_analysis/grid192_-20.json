@@ -1,0 +1,44 @@
+{
+  "temp": -20,
+  "n_MEA": 192,
+  "run": "ice_grid192_2d446de214e3bb648118",
+  "metrics": {
+    "case_hash": "e349ca5015df9bfe",
+    "feasibility": "unresolved",
+    "stop_reason": "horizon",
+    "success_time": null,
+    "last_valid_time": 36.6,
+    "th_startup": 0.0,
+    "startup_result": "horizon",
+    "shutdown_status": "unresolved",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0
+    ],
+    "charge_C_cm2": 6.423906049498302,
+    "wall_s": 132.06141430000002,
+    "nfev": 6896,
+    "mass_residual": 1.935504193740009e-15,
+    "energy_residual": 2.0753052528689537e-15,
+    "exception": null,
+    "V_min": 0.5010125890935386,
+    "ice_max": 0.00047484681268313646,
+    "delta_T_max": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.5010125890935386,
+      "ice_max": 0.00047484681268313646,
+      "delta_T_max": 0.0
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "horizon",
+        "wall_s": 132.06141430000002
+      }
+    ],
+    "candidate_id": "ice_grid192_2d446de214e3bb648118",
+    "numerically_accepted": true,
+    "config_requested": "e349ca5015df9bfe",
+    "code_hash": "333818a8d4ac0c8e"
+  }
+}

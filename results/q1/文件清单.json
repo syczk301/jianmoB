@@ -1,0 +1,807 @@
+[
+  {
+    "file": "calibration\\A_H1_P1_train-20_-25.json",
+    "source": "work\\outputs\\calibration\\A_H1_P1_train-20_-25.json",
+    "sha256": "9c34d349776348b7df17c8c33f285e6e2a5c954cc548bfdb42a1f346b60b1c39"
+  },
+  {
+    "file": "calibration\\A_H1_P1_train-20_-25_evaluations.csv",
+    "source": "work\\outputs\\calibration\\A_H1_P1_train-20_-25_evaluations.csv",
+    "sha256": "f9eff47c5094ed7d4537c0d786afd7e3774ec19273ab60d1c600e793dccfb688"
+  },
+  {
+    "file": "calibration\\A_H2_P1_train-20_-25.json",
+    "source": "work\\outputs\\calibration\\A_H2_P1_train-20_-25.json",
+    "sha256": "aae74cd34873ca04c077ea43715a9ab8c0fd8f720bf12434794128f6bc0b1bd5"
+  },
+  {
+    "file": "calibration\\A_H2_P1_train-20_-25_evaluations.csv",
+    "source": "work\\outputs\\calibration\\A_H2_P1_train-20_-25_evaluations.csv",
+    "sha256": "da79e153223e8c4d6e13d7c2bc517f70a1c862be194e3c508b23e03955566f9a"
+  },
+  {
+    "file": "calibration\\basis_structure_matrix.json",
+    "source": "work\\outputs\\calibration\\basis_structure_matrix.json",
+    "sha256": "9b0ffde1a2656adaed00e0963aa6a0a51996632156b3f23ed299e55cb764291f"
+  },
+  {
+    "file": "calibration\\B_H1_P1_train-20_-25.json",
+    "source": "work\\outputs\\calibration\\B_H1_P1_train-20_-25.json",
+    "sha256": "e4b163fc7a3b4b446fa4c645fbbdfac760bf21aa79e6edcc154e570383aba4e1"
+  },
+  {
+    "file": "calibration\\B_H1_P1_train-20_-25_evaluations.csv",
+    "source": "work\\outputs\\calibration\\B_H1_P1_train-20_-25_evaluations.csv",
+    "sha256": "819ff322af09b16648a011329058ab2895a34f2edcfe81c35c7eeebea1635127"
+  },
+  {
+    "file": "calibration\\B_H1_P3_train-20.json",
+    "source": "work\\outputs\\calibration\\B_H1_P3_train-20.json",
+    "sha256": "8c54e1a89cf235b82544237e380e43b5d9b83c3de42de7b82c4617a37e74abcf"
+  },
+  {
+    "file": "calibration\\B_H1_P3_train-20_-25.json",
+    "source": "work\\outputs\\calibration\\B_H1_P3_train-20_-25.json",
+    "sha256": "c0b9f4dd644a75a243d626c428f394dc40e5faeff5eb43e32d2f74bba86c6d20"
+  },
+  {
+    "file": "calibration\\B_H1_P3_train-20_-25_evaluations.csv",
+    "source": "work\\outputs\\calibration\\B_H1_P3_train-20_-25_evaluations.csv",
+    "sha256": "1949d8282fa759cabd5583987cb6f4b242543a5eda2de7b8db1ba1dc61367c7b"
+  },
+  {
+    "file": "calibration\\B_H1_P3_train-20_evaluations.csv",
+    "source": "work\\outputs\\calibration\\B_H1_P3_train-20_evaluations.csv",
+    "sha256": "cd165286d614da57895baca58ce1b4a64ddf6d86315789afc797601e37e89601"
+  },
+  {
+    "file": "calibration\\B_H1_P3_train-25.json",
+    "source": "work\\outputs\\calibration\\B_H1_P3_train-25.json",
+    "sha256": "cca1fce3e0edf2e17ab9c8a95ec5b02d7b3574324de0e27da61aaa4fdcdf39f2"
+  },
+  {
+    "file": "calibration\\B_H1_P3_train-25_evaluations.csv",
+    "source": "work\\outputs\\calibration\\B_H1_P3_train-25_evaluations.csv",
+    "sha256": "3a2c2764530236c10c4aa172a4f08d35c1d3bc23dcecd5de92457823aaf92259"
+  },
+  {
+    "file": "calibration\\B_H2_P1_train-20_-25.json",
+    "source": "work\\outputs\\calibration\\B_H2_P1_train-20_-25.json",
+    "sha256": "92f819a4719d2a721e6036a172b8602a18aa272886ecfff37c35009cce919dcf"
+  },
+  {
+    "file": "calibration\\B_H2_P1_train-20_-25_evaluations.csv",
+    "source": "work\\outputs\\calibration\\B_H2_P1_train-20_-25_evaluations.csv",
+    "sha256": "3d2f5419c58a7888197e750595e2ec321c4b6d3bc0c24762b32546e76f19aa6b"
+  },
+  {
+    "file": "voltage_optimization\\10至15秒拟合诊断.json",
+    "source": "work\\outputs\\voltage_optimization\\10至15秒拟合诊断.json",
+    "sha256": "b2946dfa1ab21a8d4aadc98d109e849c083b0bc407a0fe447f3a60cd1d9a4bb8"
+  },
+  {
+    "file": "voltage_optimization\\cl_only_joint.json",
+    "source": "work\\outputs\\voltage_optimization\\cl_only_joint.json",
+    "sha256": "9ba4374982201051a56e2e59d5b679cd1e99997fbffe892aa3cf18f36f32f981"
+  },
+  {
+    "file": "voltage_optimization\\cl_only_joint_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\cl_only_joint_evaluations.json",
+    "sha256": "27a356bf943dc34471c0a96f9b2adcfa4254392a0b1b1815a92d0fa1a6b0d1b7"
+  },
+  {
+    "file": "voltage_optimization\\cl_only_joint_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\cl_only_joint_progress.json",
+    "sha256": "bd6d3c9b4fee6600bb49d8ea5609967bad12f3762a2c65094ca6c51a444d8dca"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_joint.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_joint.json",
+    "sha256": "7579eacec718f0445980fedb9d8b8915a66daf13aee4c3240aee2b74218033aa"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_joint_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_joint_evaluations.json",
+    "sha256": "331cb3b0aeeae3d627a48c2c8bdeb3c8c9ecf08cf7930749039294fdeb086f29"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_joint_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_joint_progress.json",
+    "sha256": "cf6a981a845784536a049b2c54fd0ff3fdd53672d2568ee66969f806527db0ae"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_train_m20.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_train_m20.json",
+    "sha256": "9f8e392b060685b9e435c651598847ae0300f16d8a0e504985689f8099996f08"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_train_m20_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_train_m20_evaluations.json",
+    "sha256": "0574ec31653967e3ffadfb739f6299adcaeaaabb1d88ce49365032c40218aa4c"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_train_m20_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_train_m20_progress.json",
+    "sha256": "ae2d0750f59ab0e2ae3573eb1f4c896650f2753a09b928bd0b4e3cf1c3187aa0"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_train_m25.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_train_m25.json",
+    "sha256": "434ebf94dd344169705a13967e03423a2fcb66b0af467e2e83d3ebd7be2d0890"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_train_m25_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_train_m25_evaluations.json",
+    "sha256": "600a3ab9c6cbd5da8f5585dd32d354208a767259d1e623495c8f302a246d0a5f"
+  },
+  {
+    "file": "voltage_optimization\\hydrated_train_m25_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\hydrated_train_m25_progress.json",
+    "sha256": "a5b11a8bc44fe9bcaaaec4a8f89ac6670e500dbf72f3b05b1e4db6dff95fe0b1"
+  },
+  {
+    "file": "voltage_optimization\\initial_voltage_constraint.json",
+    "source": "work\\outputs\\voltage_optimization\\initial_voltage_constraint.json",
+    "sha256": "7d6083da278f87f535868c8117d148c4cbca2c9ea342b04cd4e23a6be41b86d6"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint.json",
+    "sha256": "ebf5f57d2db2d4a9eacc66931b55f83c38cc44701bf573890285537b7322abf6"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint_evaluations.json",
+    "sha256": "08958d2720b9f862ef45e9f3209f2f3e3694047d385f34ea41384e247ce68912"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint_grid48_-20.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint_grid48_-20.json",
+    "sha256": "ac963d289385bb32eef972188aba591a334133e16c51b66f902ca7bc123d156e"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint_grid48_-25.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint_grid48_-25.json",
+    "sha256": "90675c13ea5425834d55afd9d235108c5f31fa5f26b3ef19b494aef5ac4f9820"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint_grid96_-20.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint_grid96_-20.json",
+    "sha256": "a28d4edfeed4e751c3fa295254f399e23cc13a3277eb6b05caaf9a1a576ed92f"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint_grid96_-25.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint_grid96_-25.json",
+    "sha256": "baf4dfd62639545afc1463f9c623c66c190a9bcb52701ef9180b9d3b9cfe94e4"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint_progress.json",
+    "sha256": "a33ec1d026675f85f287f7d7372caf3241764158fd40efc7d20d317027664611"
+  },
+  {
+    "file": "voltage_optimization\\liquid_joint_verification.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_joint_verification.json",
+    "sha256": "6475bfae09828d06536f8b82a9c45a9747e708a7d5c446931e20720e2d4e7711"
+  },
+  {
+    "file": "voltage_optimization\\liquid_train_m20.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_train_m20.json",
+    "sha256": "b6f9b6b95dd2e151f9f86b255c90caa5365a1bb9166e0b3364bebd8d332458fa"
+  },
+  {
+    "file": "voltage_optimization\\liquid_train_m20_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_train_m20_evaluations.json",
+    "sha256": "16754d1e30090a6b59cfea57f1ed1a6e3863c85e89faf440070090e1f955ea4b"
+  },
+  {
+    "file": "voltage_optimization\\liquid_train_m20_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_train_m20_progress.json",
+    "sha256": "0477dc8244a48c328d5a43ea9e7886f613505e42d10f440082b756eac1828359"
+  },
+  {
+    "file": "voltage_optimization\\liquid_train_m25.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_train_m25.json",
+    "sha256": "87a992bec5563dd20a2fbd811ccadc3d7cdbd15fc285876511406b13ef65d927"
+  },
+  {
+    "file": "voltage_optimization\\liquid_train_m25_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_train_m25_evaluations.json",
+    "sha256": "44c07f07fd0fb5e36930a9127dae141970401b7ab43f75e3cbef4fe870fc9d86"
+  },
+  {
+    "file": "voltage_optimization\\liquid_train_m25_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\liquid_train_m25_progress.json",
+    "sha256": "238192a990011a6793bef9bf1aceb16c9df78506ccab4ae1be94f5b874668325"
+  },
+  {
+    "file": "voltage_optimization\\result_manifest.json",
+    "source": "work\\outputs\\voltage_optimization\\result_manifest.json",
+    "sha256": "accc8641a54eb2b3d0722e1773cf3c1c4ac550f1d1ba614d18692c340c564edc"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint.json",
+    "sha256": "ebe95c25458653b7c108068c4a15214c99ec6a01c02d413adff82e121b77d7e6"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint_evaluations.json",
+    "sha256": "a2badf4d5fe22a460e0744fa862b3743738950b22cfb240fd439325c9a5f7b82"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint_grid48_-20.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint_grid48_-20.json",
+    "sha256": "7ef4240d36b850800fcb1a24b5b707c520e5a71cd670afd792393f693a3a80c5"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint_grid48_-25.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint_grid48_-25.json",
+    "sha256": "9b41877fce62c125cc040ac7ea30b403cc8828fa5f28f9c80c323313d187e05d"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint_grid96_-20.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint_grid96_-20.json",
+    "sha256": "824bbe97a6139d22b7263e7cbe185f16b8f01796c294ae935199ea988e81879b"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint_grid96_-25.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint_grid96_-25.json",
+    "sha256": "3fe7f84102951f7c95adc223b4385bdd2dfcebde29a8c1dc267830496b258594"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint_progress.json",
+    "sha256": "58726085a0df4cb996d4b5b17d81245abfb9b75c27ead649c1cdddbee6449774"
+  },
+  {
+    "file": "voltage_optimization\\shape_joint_verification.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_joint_verification.json",
+    "sha256": "3f553c4cebef461f1f26498ab1f6afc2710a5a6a56ca4af2edc6680dd7fb7c31"
+  },
+  {
+    "file": "voltage_optimization\\shape_train_m20.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_train_m20.json",
+    "sha256": "a8ad715f62da03493b70a519dd53106766ae7d14197a5d093df4d94417f2f99e"
+  },
+  {
+    "file": "voltage_optimization\\shape_train_m20_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_train_m20_evaluations.json",
+    "sha256": "f584cc3aba530768f984760afb87f5505669e2bda0a736352a857a9638657923"
+  },
+  {
+    "file": "voltage_optimization\\shape_train_m20_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_train_m20_progress.json",
+    "sha256": "b7b9cfcf147f537ec8f034051d4ab5d7d3f9f7023bf2c6733cc8aa668ee9589b"
+  },
+  {
+    "file": "voltage_optimization\\shape_train_m25.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_train_m25.json",
+    "sha256": "c71390ba0255711399e6c3a5cb7bd034725c111055ca5845a6bb0c8a2dc9b67b"
+  },
+  {
+    "file": "voltage_optimization\\shape_train_m25_evaluations.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_train_m25_evaluations.json",
+    "sha256": "5a31d9d1ff11b40081105bc6d228f85dcaf354c6496fb5925783762f672c243f"
+  },
+  {
+    "file": "voltage_optimization\\shape_train_m25_progress.json",
+    "source": "work\\outputs\\voltage_optimization\\shape_train_m25_progress.json",
+    "sha256": "b8ee7ae7a166ebe6bccd3bbc5045b5eba8559025acdec27d463bf056591f2802"
+  },
+  {
+    "file": "voltage_optimization\\verification.json",
+    "source": "work\\outputs\\voltage_optimization\\verification.json",
+    "sha256": "3f553c4cebef461f1f26498ab1f6afc2710a5a6a56ca4af2edc6680dd7fb7c31"
+  },
+  {
+    "file": "voltage_optimization\\voltage_curve_static_check.json",
+    "source": "work\\outputs\\voltage_optimization\\voltage_curve_static_check.json",
+    "sha256": "54e9d422aa601dd83d543deca2e6fef6e995bdbfc08657dd4327404772cca39f"
+  },
+  {
+    "file": "voltage_optimization\\候选模型.json",
+    "source": "work\\outputs\\voltage_optimization\\候选模型.json",
+    "sha256": "d329f42c05b87b65478a7fb51fa377e6ead18afa7818692a815b628d411140b1"
+  },
+  {
+    "file": "voltage_optimization\\电压拟合曲线.pdf",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线.pdf",
+    "sha256": "d44670f26dadac4524bb6031b96483ebb299718113c72425f72fb5c282e15338"
+  },
+  {
+    "file": "voltage_optimization\\电压拟合曲线.png",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线.png",
+    "sha256": "6e0d30793593a63fc551714b4995b05c459f95105e8f958d82349063692ee3ac"
+  },
+  {
+    "file": "voltage_optimization\\电压拟合曲线.svg",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线.svg",
+    "sha256": "668ea05849c4534851caa89fb5ca701abf0247f4884840e796782eb613111a39"
+  },
+  {
+    "file": "voltage_optimization\\电压拟合曲线数据.json",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线数据.json",
+    "sha256": "de86278031276d4475527f373c01df6947f45a6c6ef342ec592bb20efee68067"
+  },
+  {
+    "file": "voltage_optimization\\电压拟合曲线检查.json",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线检查.json",
+    "sha256": "03aa8603134a79d6d9feed147afd48416b7012f94dac7795bcbe281397ef267d"
+  },
+  {
+    "file": "voltage_optimization\\电压损失与含水量.csv",
+    "source": "work\\outputs\\voltage_optimization\\电压损失与含水量.csv",
+    "sha256": "a6c03d96ad3ecab75baf3e9d73fed465b7a0b7cc9751bfb4ee90e70a32505001"
+  },
+  {
+    "file": "voltage_optimization\\电压预测优化对比.pdf",
+    "source": "work\\outputs\\voltage_optimization\\电压预测优化对比.pdf",
+    "sha256": "0ce71bd3813e6718d49cf034582fce5d5bbe27a5382d0848dac1fb1562502eed"
+  },
+  {
+    "file": "voltage_optimization\\电压预测优化对比.png",
+    "source": "work\\outputs\\voltage_optimization\\电压预测优化对比.png",
+    "sha256": "0ce556d60e9e8614ef71b9eaf6760facc5a96d533e5160635463fe99ad9e1d93"
+  },
+  {
+    "file": "voltage_optimization\\电压预测优化对比.svg",
+    "source": "work\\outputs\\voltage_optimization\\电压预测优化对比.svg",
+    "sha256": "488d56761696da61344de4cc8354824a388067922390104b0f9050fe3d671154"
+  },
+  {
+    "file": "voltage_optimization\\电压预测优化报告.md",
+    "source": "work\\outputs\\voltage_optimization\\电压预测优化报告.md",
+    "sha256": "64efdbbf3f01192495025e4b423767120af406256579a3938ab40c60637f40bd"
+  },
+  {
+    "file": "voltage_optimization\\表1_电压优化候选.csv",
+    "source": "work\\outputs\\voltage_optimization\\表1_电压优化候选.csv",
+    "sha256": "b21bff99dd72f5a4e7c33cee208df4ece393786e73ac6464c530fe17b7d96e43"
+  },
+  {
+    "file": "voltage_optimization\\表2_电压优化候选.csv",
+    "source": "work\\outputs\\voltage_optimization\\表2_电压优化候选.csv",
+    "sha256": "d6133e49481d11151f703706db24c4f1c8ccae9dcf5f28952ecfb55117fdff55"
+  },
+  {
+    "file": "voltage_optimization\\误差对比.csv",
+    "source": "work\\outputs\\voltage_optimization\\误差对比.csv",
+    "sha256": "3e56eaea128d88f7e2cff0719a246762a741c1a9ce293dbf7b8ef78182ca281c"
+  },
+  {
+    "file": "voltage_optimization\\逐点预测对比.csv",
+    "source": "work\\outputs\\voltage_optimization\\逐点预测对比.csv",
+    "sha256": "2ca5c11c6b7d34727fd8054a70d79e6b8356930f8e44bd41d381f9d079dbe752"
+  },
+  {
+    "file": "voltage_optimization\\验收记录.json",
+    "source": "work\\outputs\\voltage_optimization\\验收记录.json",
+    "sha256": "93b39595c329b827f1bbfa741b4fcab726adfc434344e04087348367a3f34cb9"
+  },
+  {
+    "file": "ice_analysis\\96格冰水空间分布.csv",
+    "source": "work\\outputs\\ice_analysis\\96格冰水空间分布.csv",
+    "sha256": "2e24899ef2699076833c91621be828995c92d77a5814160ba72fcd14fec65c03"
+  },
+  {
+    "file": "ice_analysis\\analysis_summary.json",
+    "source": "work\\outputs\\ice_analysis\\analysis_summary.json",
+    "sha256": "59e8ac8ea2b45a657be80b42f2e678ac1fff50d643ee3d67e7e22b5fbfbc89b2"
+  },
+  {
+    "file": "ice_analysis\\figure_static_check.json",
+    "source": "work\\outputs\\ice_analysis\\figure_static_check.json",
+    "sha256": "823c7b082e3dc129edcf538e7fd14ca7654d86cbf2886270b7a978a359dccfff"
+  },
+  {
+    "file": "ice_analysis\\fit_curve_static_check.json",
+    "source": "work\\outputs\\ice_analysis\\fit_curve_static_check.json",
+    "sha256": "ef41b7da36a4771dd84e558c43a44e519e0a52d702c608b4fa074d2361ff6729"
+  },
+  {
+    "file": "ice_analysis\\grid192.json",
+    "source": "work\\outputs\\ice_analysis\\grid192.json",
+    "sha256": "2394f27b9cd3cfc414da1b54b13a6bc180376ccf7e2fb517667e07e34d15c00d"
+  },
+  {
+    "file": "ice_analysis\\grid192_-20.json",
+    "source": "work\\outputs\\ice_analysis\\grid192_-20.json",
+    "sha256": "5f615b9fb28062755b34e49dafd16661652e4aab02632a21359947c301fa5da4"
+  },
+  {
+    "file": "ice_analysis\\grid192_-25.json",
+    "source": "work\\outputs\\ice_analysis\\grid192_-25.json",
+    "sha256": "36c94ca5586594bf93ca0b59f892e6e4c18f19e0c14eac5560bd6da06581a950"
+  },
+  {
+    "file": "ice_analysis\\QA与证据清单.json",
+    "source": "work\\outputs\\ice_analysis\\QA与证据清单.json",
+    "sha256": "b630ccd08655ffe36ec588cc8ea82732840290cb40694adffc2ea672d9b34524"
+  },
+  {
+    "file": "ice_analysis\\run_log.txt",
+    "source": "work\\outputs\\ice_analysis\\run_log.txt",
+    "sha256": "191b95ec20c75c8a70cba7fe8841494546ccd52f8c6abd636ff84170a40e3b68"
+  },
+  {
+    "file": "ice_analysis\\冰分布与水量去向.pdf",
+    "source": "work\\outputs\\ice_analysis\\冰分布与水量去向.pdf",
+    "sha256": "232f41c19a7bde456e215b00842a00940c7a056df82573d9183135ebe12380e5"
+  },
+  {
+    "file": "ice_analysis\\冰分布与水量去向.png",
+    "source": "work\\outputs\\ice_analysis\\冰分布与水量去向.png",
+    "sha256": "0870481e147b806e4cb7e979db7d32b6ec7f59752d07d9ec3687dbe8b6841839"
+  },
+  {
+    "file": "ice_analysis\\冰分布与水量去向.svg",
+    "source": "work\\outputs\\ice_analysis\\冰分布与水量去向.svg",
+    "sha256": "a99876c6202f2889308ea2bd44f7c6821668cf2308ce2d2f648c2e1092b5e745"
+  },
+  {
+    "file": "ice_analysis\\冰分数与水量逐时诊断.csv",
+    "source": "work\\outputs\\ice_analysis\\冰分数与水量逐时诊断.csv",
+    "sha256": "fe4433feddc28bf1e14eb5d8cf787457c6c034ef68b9ffa1f95d3db90e7fe3c7"
+  },
+  {
+    "file": "ice_analysis\\冰分数与电压影响分析.pdf",
+    "source": "work\\outputs\\ice_analysis\\冰分数与电压影响分析.pdf",
+    "sha256": "399a752c63b2cb6909230e2a158ebcc0dd73178a9e65d3b12c533e1cdf6fcba3"
+  },
+  {
+    "file": "ice_analysis\\冰分数与电压影响分析.png",
+    "source": "work\\outputs\\ice_analysis\\冰分数与电压影响分析.png",
+    "sha256": "e1229280c292fadd8f6d06f15edb648af211c720f9d73eccbb76d10092c24d49"
+  },
+  {
+    "file": "ice_analysis\\冰分数与电压影响分析.svg",
+    "source": "work\\outputs\\ice_analysis\\冰分数与电压影响分析.svg",
+    "sha256": "e604e1a72360fd889d71a359b8f9376d49dc1a87db40c3958c14dcd30e7e75e8"
+  },
+  {
+    "file": "ice_analysis\\冰分数拟合参数.json",
+    "source": "work\\outputs\\ice_analysis\\冰分数拟合参数.json",
+    "sha256": "0c0bb863fbf9a8d9e1fba8a3d17115f779af7ee45f00435af07713a0aaf17b57"
+  },
+  {
+    "file": "ice_analysis\\冰分数拟合说明.md",
+    "source": "work\\outputs\\ice_analysis\\冰分数拟合说明.md",
+    "sha256": "ab34f8c6c140c354af4b58e7120cfbed38b3c107d976e37217a2bfe1c350c65c"
+  },
+  {
+    "file": "ice_analysis\\冰峰值网格敏感性.pdf",
+    "source": "work\\outputs\\ice_analysis\\冰峰值网格敏感性.pdf",
+    "sha256": "b95f42b68f3249d3f79bcbeac12fab49cd16017ee788c3d64d71f96a9fb661b7"
+  },
+  {
+    "file": "ice_analysis\\冰峰值网格敏感性.png",
+    "source": "work\\outputs\\ice_analysis\\冰峰值网格敏感性.png",
+    "sha256": "032145b98d8b50d3db0bd8f8c911435030038ae1c15e48315cdad2b47b081e76"
+  },
+  {
+    "file": "ice_analysis\\冰峰值网格敏感性.svg",
+    "source": "work\\outputs\\ice_analysis\\冰峰值网格敏感性.svg",
+    "sha256": "95911b8511fa83dc0d9e70e85d7c0c69a2e423865efce64807a2f81ea9589ddf"
+  },
+  {
+    "file": "ice_analysis\\峰值与网格对照.csv",
+    "source": "work\\outputs\\ice_analysis\\峰值与网格对照.csv",
+    "sha256": "c69e2fafe07fd60d4a44baaf227ab66e06c23ff0597ca6b730503a0e605c4dd2"
+  },
+  {
+    "file": "ice_analysis\\拟合曲线检查.json",
+    "source": "work\\outputs\\ice_analysis\\拟合曲线检查.json",
+    "sha256": "93ffc1e73052eed6098ffbd1b4738710b8c936fe687cef76ce7d680282e14529"
+  },
+  {
+    "file": "ice_analysis\\最大冰体积分数分析.md",
+    "source": "work\\outputs\\ice_analysis\\最大冰体积分数分析.md",
+    "sha256": "a1cd52f80074fe90fcec35310c71370c8169bfa6b6bb9089ce393808f4867ab1"
+  },
+  {
+    "file": "ice_analysis\\最大冰体积分数拟合曲线.pdf",
+    "source": "work\\outputs\\ice_analysis\\最大冰体积分数拟合曲线.pdf",
+    "sha256": "4654ca9ffe218d132d81894dd43860fb5e097459616adf8b505f18b9390fee10"
+  },
+  {
+    "file": "ice_analysis\\最大冰体积分数拟合曲线.png",
+    "source": "work\\outputs\\ice_analysis\\最大冰体积分数拟合曲线.png",
+    "sha256": "3795e068cb7f838862397c7a0f6727bfd424c2b9e450f7cb6de00ed4b360607a"
+  },
+  {
+    "file": "ice_analysis\\最大冰体积分数拟合曲线.svg",
+    "source": "work\\outputs\\ice_analysis\\最大冰体积分数拟合曲线.svg",
+    "sha256": "376dacea42f2eb6a9bcd0d4d41482d8579c0b858d3b3d506ac6b1a11ab56313c"
+  },
+  {
+    "file": "ice_analysis\\题目时刻冰分数补充表.csv",
+    "source": "work\\outputs\\ice_analysis\\题目时刻冰分数补充表.csv",
+    "sha256": "359f8d7a0aff03304733704082d30424252a6ba537c17c142121c1a9ef839a71"
+  },
+  {
+    "file": "计算记录\\cpu_profile.json",
+    "source": "work\\outputs\\cpu_profile.json",
+    "sha256": "8a643e7dae4479f7fd8e69513379ab7061fb6a3979ec6f6d9475758b12677056"
+  },
+  {
+    "file": "计算记录\\failure_diagnostics.csv",
+    "source": "work\\outputs\\failure_diagnostics.csv",
+    "sha256": "feec705e755a4a10a5322c0ab4b3e7799fa0a3195bd458faaaa4b84ae3730a48"
+  },
+  {
+    "file": "计算记录\\identifiability.json",
+    "source": "work\\outputs\\identifiability.json",
+    "sha256": "6be20c34d6db3b1ff75f0a5dfa82c83fdb321ba9e63193a8be124f725879e400"
+  },
+  {
+    "file": "计算记录\\mesh_convergence.csv",
+    "source": "work\\outputs\\mesh_convergence.csv",
+    "sha256": "872c1a9f6043243e1845f890dffecff6f2596fd844028bb0a2915292c35a6dab"
+  },
+  {
+    "file": "计算记录\\mesh_convergence.json",
+    "source": "work\\outputs\\mesh_convergence.json",
+    "sha256": "90683ecf74d83c5da460cf336fd7fa2c9493a6f63444eb98104336f5c27b36d0"
+  },
+  {
+    "file": "计算记录\\mesh_ice_peak.csv",
+    "source": "work\\outputs\\mesh_ice_peak.csv",
+    "sha256": "fa8c89cdfb9deca34d79c86fe07378c9b7d15c01f43f65a0870562367c9bfc86"
+  },
+  {
+    "file": "计算记录\\mesh_manifest.csv",
+    "source": "work\\outputs\\mesh_manifest.csv",
+    "sha256": "dd6ef4240acc147afbe593faafd795464e9d93c567ad31df95f0c42a16c6f2eb"
+  },
+  {
+    "file": "计算记录\\parameter_observation_map.csv",
+    "source": "work\\outputs\\parameter_observation_map.csv",
+    "sha256": "11efd6178c8c8b99b70cfb1e428eeb2f640238af66c1b38fd99a9f119fc53ad6"
+  },
+  {
+    "file": "计算记录\\parameter_sensitivity_matrix.csv",
+    "source": "work\\outputs\\parameter_sensitivity_matrix.csv",
+    "sha256": "c49720fb800fd90e18918f2a6a13c5ac952acc390e3295fbee4da1a17ab72eb8"
+  },
+  {
+    "file": "计算记录\\preflight_heat.csv",
+    "source": "work\\outputs\\preflight_heat.csv",
+    "sha256": "bc20725bba96d620c4b3b0a331f62532c927f9ea3d9639519f16d5384e7e4505"
+  },
+  {
+    "file": "计算记录\\preflight_stack.csv",
+    "source": "work\\outputs\\preflight_stack.csv",
+    "sha256": "304d7c8b325007acbfc5e09c3b30a324d3bab906b2fb41054524376e9d14048e"
+  },
+  {
+    "file": "计算记录\\preflight_voltage.csv",
+    "source": "work\\outputs\\preflight_voltage.csv",
+    "sha256": "f04aae9ce07c83e03eefbecef44f12451aaec7f80c68f7d1dc373098e8c7f359"
+  },
+  {
+    "file": "计算记录\\preflight_water.csv",
+    "source": "work\\outputs\\preflight_water.csv",
+    "sha256": "cf4100ec5c6b15b9753f56e3e7f6f6b5adbde0711fb08e1bf16b383a7364f0a9"
+  },
+  {
+    "file": "计算记录\\selected_model.json",
+    "source": "work\\outputs\\selected_model.json",
+    "sha256": "86a17301dd50e184718b1ec1b21d55fbcaaf67cb8e5c1fda27222008cff363b0"
+  },
+  {
+    "file": "计算记录\\sensitivity.csv",
+    "source": "work\\outputs\\sensitivity.csv",
+    "sha256": "9a532a8309eb727ba40d3e476b9b828308c0ac56f6dda24728356d6621db6552"
+  },
+  {
+    "file": "计算记录\\sensitivity.json",
+    "source": "work\\outputs\\sensitivity.json",
+    "sha256": "564d114d6d57646c3345e5eba561067978ac2aa5f1676f7e70699074952d6662"
+  },
+  {
+    "file": "计算记录\\slope_B_H1_P3_train-20_-20.csv",
+    "source": "work\\outputs\\slope_B_H1_P3_train-20_-20.csv",
+    "sha256": "0a94a9e927b7ee7bc12b4e0213df4b775e8128c83903ad0da8e1312809779dbd"
+  },
+  {
+    "file": "计算记录\\slope_B_H1_P3_train-20_-25.csv",
+    "source": "work\\outputs\\slope_B_H1_P3_train-20_-25.csv",
+    "sha256": "c45c3bd09d0b0347a065b1f405a25556d54869dff225ff6f90745becc1175976"
+  },
+  {
+    "file": "计算记录\\slope_B_H1_P3_train-20_-25_-20.csv",
+    "source": "work\\outputs\\slope_B_H1_P3_train-20_-25_-20.csv",
+    "sha256": "e3a4c23d7df341f969953b4f97522d85a38d3bc1d4ef1ab27f4080f8d4466e08"
+  },
+  {
+    "file": "计算记录\\slope_B_H1_P3_train-20_-25_-25.csv",
+    "source": "work\\outputs\\slope_B_H1_P3_train-20_-25_-25.csv",
+    "sha256": "58386414c724d1f17c27f2120cf451b262c280923371c02e94f21ad6670494fa"
+  },
+  {
+    "file": "计算记录\\slope_B_H1_P3_train-25_-20.csv",
+    "source": "work\\outputs\\slope_B_H1_P3_train-25_-20.csv",
+    "sha256": "fe47e8d89896942f65176923eb732aafbed93007fa3b2be52a71440557444392"
+  },
+  {
+    "file": "计算记录\\slope_B_H1_P3_train-25_-25.csv",
+    "source": "work\\outputs\\slope_B_H1_P3_train-25_-25.csv",
+    "sha256": "88004e59b664e81d907dc22fbbbe279b656472bfa5a234b84261b47fbdf7b472"
+  },
+  {
+    "file": "计算记录\\temperature_slope_diagnostics.json",
+    "source": "work\\outputs\\temperature_slope_diagnostics.json",
+    "sha256": "b62704411f7f65fb3fe816b09265bcfacbe1f6bca3b83389ffa5b8a2cc6dda0b"
+  },
+  {
+    "file": "计算记录\\water_model_release.md",
+    "source": "work\\outputs\\water_model_release.md",
+    "sha256": "85edcbade9bdff561ba7f9ef1245224437a82d52607a98094ee8b85da99d6a6a"
+  },
+  {
+    "file": "计算记录\\water_route_ablation.csv",
+    "source": "work\\outputs\\water_route_ablation.csv",
+    "sha256": "77c6444b03f010f562cc14e199936c5e536c02ea881977022ba2ee4623540dba"
+  },
+  {
+    "file": "计算记录\\water_route_ablation.json",
+    "source": "work\\outputs\\water_route_ablation.json",
+    "sha256": "17633bb17951da49bb96a2049824239db9d2e21fbe725fc157c945620c1c592c"
+  },
+  {
+    "file": "旧模型对照图\\Q1_calibration.pdf",
+    "source": "work\\outputs\\figures\\Q1_calibration.pdf",
+    "sha256": "0aa3ff15b2fc1e70ae0e6b517f10d73ea8eb4984ceb01fe477f77207bd400d04"
+  },
+  {
+    "file": "旧模型对照图\\Q1_calibration.png",
+    "source": "work\\outputs\\figures\\Q1_calibration.png",
+    "sha256": "c4e366e20388edbb4ded5c541c7fec54170622c830deeb58be4b35369f801e32"
+  },
+  {
+    "file": "旧模型对照图\\Q1_calibration.svg",
+    "source": "work\\outputs\\figures\\Q1_calibration.svg",
+    "sha256": "7fff7608af04f74c5a031b1db381f47e5a9a10a4660c793477656d7366608f17"
+  },
+  {
+    "file": "旧模型对照图\\Q1_inferred_states.pdf",
+    "source": "work\\outputs\\figures\\Q1_inferred_states.pdf",
+    "sha256": "4c7aee086529b7d2db74dc93a290f89b8c23f5c2aece3f0ceef4eb692f718b9e"
+  },
+  {
+    "file": "旧模型对照图\\Q1_inferred_states.png",
+    "source": "work\\outputs\\figures\\Q1_inferred_states.png",
+    "sha256": "f9380f7dbe0a35cad99f9aa0acb348a076f935b05051a74ffcaeacdf66bbde4b"
+  },
+  {
+    "file": "旧模型对照图\\Q1_inferred_states.svg",
+    "source": "work\\outputs\\figures\\Q1_inferred_states.svg",
+    "sha256": "1e5243560be0106670d6e96ad19e03533f21d23dc910ef01b8e847732fdaa492"
+  },
+  {
+    "file": "旧模型对照图\\Q1_temperature_holdout.pdf",
+    "source": "work\\outputs\\figures\\Q1_temperature_holdout.pdf",
+    "sha256": "8bb8292bf808946fd84a28a077c393181a74ee452e882582d403d1e99ccf8bb5"
+  },
+  {
+    "file": "旧模型对照图\\Q1_temperature_holdout.png",
+    "source": "work\\outputs\\figures\\Q1_temperature_holdout.png",
+    "sha256": "a3d72db13f2ec2e704056eaa64b1753b77aa676a9791f424f05004b073d1d875"
+  },
+  {
+    "file": "旧模型对照图\\Q1_temperature_holdout.svg",
+    "source": "work\\outputs\\figures\\Q1_temperature_holdout.svg",
+    "sha256": "3c2007940ad1efbbd4b61919502ab2af5ca0c28232ddd04afb5accd6fe3861b1"
+  },
+  {
+    "file": "图\\电压拟合曲线.pdf",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线.pdf",
+    "sha256": "d44670f26dadac4524bb6031b96483ebb299718113c72425f72fb5c282e15338"
+  },
+  {
+    "file": "图\\电压拟合曲线.png",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线.png",
+    "sha256": "6e0d30793593a63fc551714b4995b05c459f95105e8f958d82349063692ee3ac"
+  },
+  {
+    "file": "图\\电压拟合曲线.svg",
+    "source": "work\\outputs\\voltage_optimization\\电压拟合曲线.svg",
+    "sha256": "668ea05849c4534851caa89fb5ca701abf0247f4884840e796782eb613111a39"
+  },
+  {
+    "file": "图\\电压预测优化对比.pdf",
+    "source": "work\\outputs\\voltage_optimization\\电压预测优化对比.pdf",
+    "sha256": "0ce71bd3813e6718d49cf034582fce5d5bbe27a5382d0848dac1fb1562502eed"
+  },
+  {
+    "file": "图\\电压预测优化对比.png",
+    "source": "work\\outputs\\voltage_optimization\\电压预测优化对比.png",
+    "sha256": "0ce556d60e9e8614ef71b9eaf6760facc5a96d533e5160635463fe99ad9e1d93"
+  },
+  {
+    "file": "图\\电压预测优化对比.svg",
+    "source": "work\\outputs\\voltage_optimization\\电压预测优化对比.svg",
+    "sha256": "488d56761696da61344de4cc8354824a388067922390104b0f9050fe3d671154"
+  },
+  {
+    "file": "图\\冰分布与水量去向.pdf",
+    "source": "work\\outputs\\ice_analysis\\冰分布与水量去向.pdf",
+    "sha256": "232f41c19a7bde456e215b00842a00940c7a056df82573d9183135ebe12380e5"
+  },
+  {
+    "file": "图\\冰分布与水量去向.png",
+    "source": "work\\outputs\\ice_analysis\\冰分布与水量去向.png",
+    "sha256": "0870481e147b806e4cb7e979db7d32b6ec7f59752d07d9ec3687dbe8b6841839"
+  },
+  {
+    "file": "图\\冰分布与水量去向.svg",
+    "source": "work\\outputs\\ice_analysis\\冰分布与水量去向.svg",
+    "sha256": "a99876c6202f2889308ea2bd44f7c6821668cf2308ce2d2f648c2e1092b5e745"
+  },
+  {
+    "file": "图\\冰分数与电压影响分析.pdf",
+    "source": "work\\outputs\\ice_analysis\\冰分数与电压影响分析.pdf",
+    "sha256": "399a752c63b2cb6909230e2a158ebcc0dd73178a9e65d3b12c533e1cdf6fcba3"
+  },
+  {
+    "file": "图\\冰分数与电压影响分析.png",
+    "source": "work\\outputs\\ice_analysis\\冰分数与电压影响分析.png",
+    "sha256": "e1229280c292fadd8f6d06f15edb648af211c720f9d73eccbb76d10092c24d49"
+  },
+  {
+    "file": "图\\冰分数与电压影响分析.svg",
+    "source": "work\\outputs\\ice_analysis\\冰分数与电压影响分析.svg",
+    "sha256": "e604e1a72360fd889d71a359b8f9376d49dc1a87db40c3958c14dcd30e7e75e8"
+  },
+  {
+    "file": "图\\冰峰值网格敏感性.pdf",
+    "source": "work\\outputs\\ice_analysis\\冰峰值网格敏感性.pdf",
+    "sha256": "b95f42b68f3249d3f79bcbeac12fab49cd16017ee788c3d64d71f96a9fb661b7"
+  },
+  {
+    "file": "图\\冰峰值网格敏感性.png",
+    "source": "work\\outputs\\ice_analysis\\冰峰值网格敏感性.png",
+    "sha256": "032145b98d8b50d3db0bd8f8c911435030038ae1c15e48315cdad2b47b081e76"
+  },
+  {
+    "file": "图\\冰峰值网格敏感性.svg",
+    "source": "work\\outputs\\ice_analysis\\冰峰值网格敏感性.svg",
+    "sha256": "95911b8511fa83dc0d9e70e85d7c0c69a2e423865efce64807a2f81ea9589ddf"
+  },
+  {
+    "file": "图\\最大冰体积分数拟合曲线.pdf",
+    "source": "work\\outputs\\ice_analysis\\最大冰体积分数拟合曲线.pdf",
+    "sha256": "4654ca9ffe218d132d81894dd43860fb5e097459616adf8b505f18b9390fee10"
+  },
+  {
+    "file": "图\\最大冰体积分数拟合曲线.png",
+    "source": "work\\outputs\\ice_analysis\\最大冰体积分数拟合曲线.png",
+    "sha256": "3795e068cb7f838862397c7a0f6727bfd424c2b9e450f7cb6de00ed4b360607a"
+  },
+  {
+    "file": "图\\最大冰体积分数拟合曲线.svg",
+    "source": "work\\outputs\\ice_analysis\\最大冰体积分数拟合曲线.svg",
+    "sha256": "376dacea42f2eb6a9bcd0d4d41482d8579c0b858d3b3d506ac6b1a11ab56313c"
+  },
+  {
+    "file": "计算表格\\table1_Q1_-20.csv",
+    "source": "work\\outputs\\tables\\table1_Q1_-20.csv",
+    "sha256": "b54d538a54b207da2f3ef80081d1961bae1fbdd3465c636186bc73b540ec2646"
+  },
+  {
+    "file": "计算表格\\table2_Q1_-25.csv",
+    "source": "work\\outputs\\tables\\table2_Q1_-25.csv",
+    "sha256": "5ebbebd4f50ea0bca0bcb320d70cfad9f32c50610ea6119ab7970b15e7968ae8"
+  },
+  {
+    "file": "表格\\表1_电压优化候选.csv",
+    "source": "work\\outputs\\voltage_optimization\\表1_电压优化候选.csv",
+    "sha256": "b21bff99dd72f5a4e7c33cee208df4ece393786e73ac6464c530fe17b7d96e43"
+  },
+  {
+    "file": "表格\\表2_电压优化候选.csv",
+    "source": "work\\outputs\\voltage_optimization\\表2_电压优化候选.csv",
+    "sha256": "d6133e49481d11151f703706db24c4f1c8ccae9dcf5f28952ecfb55117fdff55"
+  }
+]

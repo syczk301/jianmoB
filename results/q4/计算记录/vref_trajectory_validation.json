@@ -1,0 +1,26 @@
+[
+  {
+    "run": "q4_dev_equilibrium_214f4426b9ba21f90196",
+    "valid_points": 1410,
+    "invalid_points": 0,
+    "max_voltage_error_V": 0.00044007536784795853,
+    "max_error_derivative_V_s": 0.0008808161950459859,
+    "warning_derivative_threshold_V_s": 0.01
+  },
+  {
+    "run": "q4_dev_20min_69fe4ea19fff2a9dfba2",
+    "valid_points": 425,
+    "invalid_points": 0,
+    "max_voltage_error_V": 0.00047846850478494574,
+    "max_error_derivative_V_s": 0.0009572966643618397,
+    "warning_derivative_threshold_V_s": 0.01
+  },
+  {
+    "run": "q4_dev_40min_360c8c7e53d2421c7d81",
+    "valid_points": 1025,
+    "invalid_points": 0,
+    "max_voltage_error_V": 0.00045640433808480374,
+    "max_error_derivative_V_s": 0.0009132697789098199,
+    "warning_derivative_threshold_V_s": 0.01
+  }
+]

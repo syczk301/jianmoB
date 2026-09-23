@@ -1,0 +1,131 @@
+{
+  "job": "shape_train_m20",
+  "train": [
+    -20
+  ],
+  "closure": "liquid_cl",
+  "config": {
+    "cells": 1,
+    "fixture": "H1",
+    "basis": "B",
+    "mesh": [
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "board_n": 2,
+    "end_n": 4,
+    "shared_bp": false,
+    "water": "W1",
+    "outlet": "closed",
+    "thermal": "phase",
+    "observation": "MEA",
+    "j0": 5.949298929061036,
+    "tau_b": 1.0389337956865194,
+    "tau_f": 33.307669427458045,
+    "tau_m": 1.0,
+    "mu_factor": 1.0,
+    "ice_connectivity": 3.0,
+    "h": 40.0,
+    "contact_r": 0.0,
+    "Rc": 1e-06,
+    "lambda0": 3.0,
+    "concentration": "given",
+    "end_concentration_factor": 1.0,
+    "cl_proton_loss": true,
+    "cathode_hydration_exponent": 2.4297300764676346,
+    "vapor_equilibrium": "supercooled_liquid",
+    "half_cl": false,
+    "T0": 253.15,
+    "ambient": 253.15,
+    "rtol": 1e-05,
+    "max_step": 0.5,
+    "voltage_limit": 0.3,
+    "charge_limit": 20.0,
+    "current_limit": 0.5,
+    "success_margin": 0.01,
+    "horizon": 300.0,
+    "sample": 0.2,
+    "control_prediction_horizon": 5.0,
+    "seed": 20260923
+  },
+  "nfev": 6,
+  "actual_parameter_evaluations": 24,
+  "cost": 162.04860856141775,
+  "optimizer_message": "`ftol` termination condition is satisfied.",
+  "elapsed_s": 122.61725720000686,
+  "initial_parameters": [
+    -1.758518135448253,
+    0.43178241642553783,
+    3.0
+  ],
+  "lower_bounds": [
+    -4.605170185988091,
+    -2.995732273553991,
+    0.0
+  ],
+  "upper_bounds": [
+    1.0986122886681098,
+    3.6888794541139363,
+    6.0
+  ],
+  "parameterization": [
+    "ln j0 effective at lambda=3",
+    "ln tau_b / s",
+    "hydration exponent"
+  ],
+  "shape_features": true,
+  "shape_feature_weight": "sqrt(N/6)/0.03 for initial voltage, minimum voltage and recovery",
+  "fixed_tau_f_note": "same previously calibrated freezing time in every variant; cross-temperature checks are retrospective",
+  "validation_scope": "temperature excluded from objective; closure and freezing prior were developed after viewing both datasets",
+  "boundary_hit": false,
+  "jacobian_singular_values": [
+    22.255301341289098,
+    6.293807095065247,
+    2.1049737275507163
+  ],
+  "results": {
+    "-20": {
+      "role": "training",
+      "run": "vopt_shape_train_m20_1041dc0012637be2dffa",
+      "mass_residual": 2.0958849055981958e-14,
+      "energy_residual": 6.427424192758199e-16,
+      "complete": true,
+      "V_RMSE": 0.021614796037685485,
+      "T_RMSE": 0.42681046048406385,
+      "V_MAE": 0.01878345373146271,
+      "T_MAE": 0.3301800522099322,
+      "V_min": 0.5079845144384599,
+      "valley_time": 13.8,
+      "valley_time_error": 0.20000000000000107,
+      "depth": 0.2722324315397836,
+      "recovery": 0.15248928668249628,
+      "depth_error": 0.042767568460216454,
+      "recovery_error": 0.03651071331750377,
+      "dT": 6.796408685611652,
+      "prediction_pass": false
+    },
+    "-25": {
+      "role": "retrospective_temperature_holdout",
+      "run": "vopt_shape_train_m20_474aa68cce9b1b51f42e",
+      "mass_residual": 2.864726867518706e-12,
+      "energy_residual": 9.012754241030886e-16,
+      "complete": true,
+      "V_RMSE": 0.02747539251719497,
+      "T_RMSE": 0.24773649963456712,
+      "V_MAE": 0.023254444079704194,
+      "T_MAE": 0.18839222943868536,
+      "V_min": 0.515386194676653,
+      "valley_time": 13.6,
+      "valley_time_error": 0.0,
+      "depth": 0.24606574386540048,
+      "recovery": 0.12626553134381024,
+      "depth_error": 0.07093425613459958,
+      "recovery_error": 0.032734468656189786,
+      "dT": 7.277827667207561,
+      "prediction_pass": false
+    }
+  }
+}

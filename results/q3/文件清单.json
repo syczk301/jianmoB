@@ -1,0 +1,147 @@
+[
+  {
+    "file": "计算记录\\energy_lower_bound.json",
+    "source": "work\\outputs\\energy_lower_bound.json",
+    "sha256": "8be3a4763c865fdff88d9c701cd6b96fdb6e3ecd0b96427765f6395ea3bf7885"
+  },
+  {
+    "file": "计算记录\\horizon_extension.json",
+    "source": "work\\outputs\\horizon_extension.json",
+    "sha256": "42c23a468b8c17f4b42478c898d2184fa647959fa93d9e25478400d2eee93928"
+  },
+  {
+    "file": "计算记录\\load_qualification.json",
+    "source": "work\\outputs\\load_qualification.json",
+    "sha256": "61162f6d44f634bad2f24287dc38d9365d780e70677fdd335f10f10b3b9f42a1"
+  },
+  {
+    "file": "计算记录\\q3_coheat_evaluations.csv",
+    "source": "work\\outputs\\q3_coheat_evaluations.csv",
+    "sha256": "f133ff214c608c459ce47407e7885e721a9cbca5dcdeaa589e3cb89f4550840d"
+  },
+  {
+    "file": "计算记录\\q3_coheat_search.json",
+    "source": "work\\outputs\\q3_coheat_search.json",
+    "sha256": "ea373e69a149db9ea3f8f880341ef161b0996ee8ec37152ae9f6edd36f05e995"
+  },
+  {
+    "file": "计算记录\\q3_control_convergence.json",
+    "source": "work\\outputs\\q3_control_convergence.json",
+    "sha256": "3e70564a25fe2e8a9f55114445c02d0aac77f390b51f1f6c8c61f178445ac003"
+  },
+  {
+    "file": "计算记录\\q3_extended_summary.json",
+    "source": "work\\outputs\\q3_extended_summary.json",
+    "sha256": "1f572fb61dd92880001fc46360657c95c0a273d391c78896994e490027045e29"
+  },
+  {
+    "file": "计算记录\\q3_preheat_evaluations.csv",
+    "source": "work\\outputs\\q3_preheat_evaluations.csv",
+    "sha256": "b374df4d1f66af71b1419ee60d5a3c5417253225001fc214d1560caf4c737112"
+  },
+  {
+    "file": "计算记录\\q3_preheat_search.json",
+    "source": "work\\outputs\\q3_preheat_search.json",
+    "sha256": "cbcd4104813eb9ca5b14a9a4fac4bc576800070752fdfa0755130e713cc561db"
+  },
+  {
+    "file": "计算记录\\q3_summary.json",
+    "source": "work\\outputs\\q3_summary.json",
+    "sha256": "2eeee79108fbf5d6256ffde9263a24f20f2e80fe4692d171b663439965e13971"
+  },
+  {
+    "file": "计算记录\\zero_heat_validation.json",
+    "source": "work\\outputs\\zero_heat_validation.json",
+    "sha256": "6608a661f6fee0808e827295f530cd839e53426f9c2bf56e05f4c33c1cdf6a3f"
+  },
+  {
+    "file": "计算记录\\zero_heat_validation_progress.json",
+    "source": "work\\outputs\\zero_heat_validation_progress.json",
+    "sha256": "6608a661f6fee0808e827295f530cd839e53426f9c2bf56e05f4c33c1cdf6a3f"
+  },
+  {
+    "file": "图\\q3_coheat_evaluations_search_history.pdf",
+    "source": "work\\outputs\\figures\\q3_coheat_evaluations_search_history.pdf",
+    "sha256": "4f04a2415a82c9b4c84fe8c29bb0c1c1042e9bc1462012ce3f22da84860b1dfe"
+  },
+  {
+    "file": "图\\q3_coheat_evaluations_search_history.png",
+    "source": "work\\outputs\\figures\\q3_coheat_evaluations_search_history.png",
+    "sha256": "85687bf6e032bd8da7da5a3832c27baef0984f2757c9750bc28a83703c6fdb53"
+  },
+  {
+    "file": "图\\q3_coheat_evaluations_search_history.svg",
+    "source": "work\\outputs\\figures\\q3_coheat_evaluations_search_history.svg",
+    "sha256": "76a17354cb82490d98b426b8a62af2dc4f5f64ef9b63e58bbea46e399b740821"
+  },
+  {
+    "file": "图\\Q3_energy_time_tradeoff.pdf",
+    "source": "work\\outputs\\figures\\Q3_energy_time_tradeoff.pdf",
+    "sha256": "d4f4f7ba3319120905aaa048209bfffe678e94b82b7ab200a0f715e9fe269023"
+  },
+  {
+    "file": "图\\Q3_energy_time_tradeoff.png",
+    "source": "work\\outputs\\figures\\Q3_energy_time_tradeoff.png",
+    "sha256": "99be3949785c0a4e4b62b357abf3dc27e073f471be0c8f0cebcd51baff60236a"
+  },
+  {
+    "file": "图\\Q3_energy_time_tradeoff.svg",
+    "source": "work\\outputs\\figures\\Q3_energy_time_tradeoff.svg",
+    "sha256": "7d6c6f57b2f61fa4086358ee23a9553fbd49c4844aa51d7f6ee15d732b9c5263"
+  },
+  {
+    "file": "图\\q3_preheat_evaluations_search_history.pdf",
+    "source": "work\\outputs\\figures\\q3_preheat_evaluations_search_history.pdf",
+    "sha256": "364f8dbcca0152e97280838fe8493ae924660cf5575d9be37c7cce0716c11591"
+  },
+  {
+    "file": "图\\q3_preheat_evaluations_search_history.png",
+    "source": "work\\outputs\\figures\\q3_preheat_evaluations_search_history.png",
+    "sha256": "92d16aa5e8967b397b94fcb1e360a9173d98d8740226dff9ad636db29ad7225c"
+  },
+  {
+    "file": "图\\q3_preheat_evaluations_search_history.svg",
+    "source": "work\\outputs\\figures\\q3_preheat_evaluations_search_history.svg",
+    "sha256": "f2c2fc6c5ddfcd3d2208febafff24dbc13eace41c368969d3aabcbd4b6806b78"
+  },
+  {
+    "file": "图\\q3_summary_coheat.pdf",
+    "source": "work\\outputs\\figures\\q3_summary_coheat.pdf",
+    "sha256": "454090d3f95a94f15f5765df88f577c418ff30806f091017b38570200334a68b"
+  },
+  {
+    "file": "图\\q3_summary_coheat.png",
+    "source": "work\\outputs\\figures\\q3_summary_coheat.png",
+    "sha256": "bf8fd3aec0dbb25658c44c4e4b4c18be8cd9e86b429dbed0aeb40015d3800260"
+  },
+  {
+    "file": "图\\q3_summary_coheat.svg",
+    "source": "work\\outputs\\figures\\q3_summary_coheat.svg",
+    "sha256": "5839cf3ab4d76a2d9eb02f51fd917b8be84a04cab8b198bb077afd853d5a559a"
+  },
+  {
+    "file": "图\\q3_summary_preheat.pdf",
+    "source": "work\\outputs\\figures\\q3_summary_preheat.pdf",
+    "sha256": "f2c057d245435dfbcd1ec1d8b1ea9e469b134429150836ab1474b349956a166a"
+  },
+  {
+    "file": "图\\q3_summary_preheat.png",
+    "source": "work\\outputs\\figures\\q3_summary_preheat.png",
+    "sha256": "a25b51b9f7ef97a05aabf7bfad3f7ee9763fa3af6c6883499f5808a1ed55c0b4"
+  },
+  {
+    "file": "图\\q3_summary_preheat.svg",
+    "source": "work\\outputs\\figures\\q3_summary_preheat.svg",
+    "sha256": "42164217f3bab91b046cc999f061f915d66eb8817405f3b34a06a2c10d08d1c2"
+  },
+  {
+    "file": "计算表格\\table4_Q3.csv",
+    "source": "work\\outputs\\tables\\table4_Q3.csv",
+    "sha256": "9253f7280e6d700c75e0ae1b014d39d48aeab9bc1b8700fc643e5d07563c9ea7"
+  },
+  {
+    "file": "表格\\表4_问题3.csv",
+    "source": "work\\outputs\\B题原表填写\\表4_问题3.csv",
+    "sha256": "a2f7345ddf852ec801352dec6e11f1ec3ef416b7bf7203f49644587f99949109"
+  }
+]

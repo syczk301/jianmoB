@@ -1,0 +1,232 @@
+{
+  "preheat": null,
+  "coheat": {
+    "case_hash": "af50916ddfd88962",
+    "feasibility": "feasible",
+    "stop_reason": "success",
+    "success_time": 295.77248621570345,
+    "last_valid_time": 295.77248621570345,
+    "th_startup": 26.730722572437625,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 1743.1519534502258,
+    "E_cells_J": [
+      485.7780629772042,
+      650.8746350929644,
+      317.02923585539924,
+      72.7270153616988,
+      216.7430041629593
+    ],
+    "charge_C_cm2": 79.73177897988545,
+    "wall_s": 63.38941150001483,
+    "nfev": 6365,
+    "mass_residual": 9.413724182646021e-13,
+    "energy_residual": 1.4152474541544702e-15,
+    "exception": null,
+    "V_min": 0.5405374659247708,
+    "ice_max": 0.0550257515461548,
+    "delta_T_max": 18.07018254582087,
+    "E_aux_to_success_J": 1743.151953450226,
+    "shutdown_extrema": {
+      "V_min": 0.5405374659247708,
+      "ice_max": 0.0550257515461548,
+      "delta_T_max": 18.07018254582087
+    },
+    "retries": [
+      {
+        "attempt": 0,
+        "reason": "success",
+        "wall_s": 63.38941150001483
+      }
+    ],
+    "candidate_id": "q3_refine_coheat_bb7bea440b263864eb18",
+    "numerically_accepted": true,
+    "config_requested": "af50916ddfd88962",
+    "code_hash": "904567fd11d251fb",
+    "protocol": {
+      "kind": "fixed",
+      "params": [
+        0.1
+      ],
+      "powers": [
+        0.7269209601959593,
+        0.9739723770341916,
+        0.47440428891704145,
+        0.1088291050339035,
+        0.32433542127506215
+      ],
+      "heat_off": 26.730722572437625,
+      "load_start": 0.0,
+      "times": null,
+      "currents": null
+    },
+    "fine_replay": {
+      "case_hash": "07f3c771d9f4c397",
+      "feasibility": "feasible",
+      "stop_reason": "success",
+      "success_time": 294.1635735865453,
+      "last_valid_time": 294.1635735865453,
+      "th_startup": 26.730722572437625,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 1743.1519534502281,
+      "E_cells_J": [
+        485.77806297720497,
+        650.8746350929658,
+        317.02923585539895,
+        72.72701536169869,
+        216.74300416295944
+      ],
+      "charge_C_cm2": 79.2490753910909,
+      "wall_s": 409.8502123999642,
+      "nfev": 19965,
+      "mass_residual": 2.6496804727080263e-12,
+      "energy_residual": 1.839821690400811e-15,
+      "exception": null,
+      "V_min": 0.5340536874919738,
+      "ice_max": 0.08050443404002021,
+      "delta_T_max": 18.081950134798547,
+      "E_aux_to_success_J": 1743.1519534502277,
+      "shutdown_extrema": {
+        "V_min": 0.5340536874919738,
+        "ice_max": 0.08050443404002021,
+        "delta_T_max": 18.081950134798547
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "success",
+          "wall_s": 409.8502123999642
+        }
+      ],
+      "candidate_id": "q3_fine_83e518874025329ed6eb",
+      "numerically_accepted": true,
+      "config_requested": "07f3c771d9f4c397",
+      "code_hash": "904567fd11d251fb"
+    },
+    "qualification": {
+      "case_hash": "ee8aa4a8ac2bd333",
+      "feasibility": "feasible",
+      "stop_reason": "horizon",
+      "success_time": 1.1386152078814137e-13,
+      "last_valid_time": 70.0,
+      "th_startup": 0.0,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 0.0,
+      "E_cells_J": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "charge_C_cm2": 20.999999999999737,
+      "wall_s": 23.985790400009137,
+      "nfev": 1536,
+      "mass_residual": 6.152320739212129e-16,
+      "energy_residual": 8.749496433666253e-16,
+      "exception": null,
+      "V_min": 0.5645668866195417,
+      "ice_max": 0.08772851643596663,
+      "delta_T_max": 8.310534540120102,
+      "E_aux_to_success_J": 0.0,
+      "shutdown_extrema": {
+        "V_min": 0.5634619734638837,
+        "ice_max": 0.08772851643596663,
+        "delta_T_max": 8.97198816466073
+      },
+      "candidate_id": "q3_coheat_qualification_70_fine",
+      "qualification_pass": true,
+      "qualification_min_V": 0.563462001682448,
+      "qualification_min_T_C": 0.009999999999990905
+    },
+    "charge20_sensitivity": {
+      "case_hash": "9417b6178f7b2712",
+      "feasibility": "infeasible",
+      "stop_reason": "charge",
+      "success_time": null,
+      "last_valid_time": 96.6665562827532,
+      "th_startup": 26.730722572437625,
+      "startup_result": "charge",
+      "shutdown_status": "charge",
+      "E_aux_total_J": 1743.1519534502258,
+      "E_cells_J": [
+        485.7780629772042,
+        650.8746350929644,
+        317.02923585539924,
+        72.7270153616988,
+        216.7430041629593
+      ],
+      "charge_C_cm2": 20.0,
+      "wall_s": 22.686512800049968,
+      "nfev": 3074,
+      "mass_residual": 9.413724182646021e-13,
+      "energy_residual": 6.368613543695116e-16,
+      "exception": null,
+      "V_min": 0.5405374659247708,
+      "ice_max": 0.030267418570825544,
+      "delta_T_max": 18.07018254582087,
+      "shutdown_extrema": {
+        "V_min": 0.5405374659247708,
+        "ice_max": 0.030267418570825544,
+        "delta_T_max": 18.07018254582087
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "charge",
+          "wall_s": 22.686512800049968
+        }
+      ],
+      "candidate_id": "q3_charge20_83f624db88eb20d2cbe2",
+      "numerically_accepted": true,
+      "config_requested": "9417b6178f7b2712",
+      "code_hash": "904567fd11d251fb"
+    },
+    "second_fine_replay": {
+      "case_hash": "86cf650e5d864959",
+      "feasibility": "feasible",
+      "stop_reason": "success",
+      "success_time": 293.57935559175735,
+      "last_valid_time": 293.57935559175735,
+      "th_startup": 26.730722572437625,
+      "startup_result": "success",
+      "shutdown_status": "passed",
+      "E_aux_total_J": 1743.1519534502231,
+      "E_cells_J": [
+        485.7780629772051,
+        650.8746350929633,
+        317.02923585539645,
+        72.72701536169818,
+        216.7430041629599
+      ],
+      "charge_C_cm2": 79.07380753562857,
+      "wall_s": 1663.2148730999907,
+      "nfev": 39051,
+      "mass_residual": 1.3701060818840356e-12,
+      "energy_residual": 3.396593889970729e-15,
+      "exception": null,
+      "V_min": 0.5307694540332388,
+      "ice_max": 0.08772851643596714,
+      "delta_T_max": 18.081830703565117,
+      "E_aux_to_success_J": 1743.1519534502231,
+      "shutdown_extrema": {
+        "V_min": 0.5307694540332388,
+        "ice_max": 0.08772851643596714,
+        "delta_T_max": 18.081830703565117
+      },
+      "retries": [
+        {
+          "attempt": 0,
+          "reason": "success",
+          "wall_s": 1663.2148730999907
+        }
+      ],
+      "candidate_id": "q3_fine96_104be6fbf1fc0702c795",
+      "numerically_accepted": true,
+      "config_requested": "86cf650e5d864959",
+      "code_hash": "904567fd11d251fb"
+    }
+  }
+}

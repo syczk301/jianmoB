@@ -1,0 +1,128 @@
+{
+  "job": "hydrated_train_m25",
+  "train": [
+    -25
+  ],
+  "closure": "hydrated_cl",
+  "config": {
+    "cells": 1,
+    "fixture": "H1",
+    "basis": "B",
+    "mesh": [
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "board_n": 2,
+    "end_n": 4,
+    "shared_bp": false,
+    "water": "W1",
+    "outlet": "closed",
+    "thermal": "phase",
+    "observation": "MEA",
+    "j0": 12.99384781567325,
+    "tau_b": 0.05000223904784403,
+    "tau_f": 33.307669427458045,
+    "tau_m": 1.0,
+    "mu_factor": 1.0,
+    "ice_connectivity": 3.0,
+    "h": 40.0,
+    "contact_r": 0.0,
+    "Rc": 1e-06,
+    "lambda0": 3.0,
+    "concentration": "given",
+    "end_concentration_factor": 1.0,
+    "cl_proton_loss": true,
+    "cathode_hydration_exponent": 2.552760863528256,
+    "half_cl": false,
+    "T0": 253.15,
+    "ambient": 253.15,
+    "rtol": 1e-05,
+    "max_step": 0.5,
+    "voltage_limit": 0.3,
+    "charge_limit": 20.0,
+    "current_limit": 0.5,
+    "success_margin": 0.01,
+    "horizon": 300.0,
+    "sample": 0.2,
+    "control_prediction_horizon": 5.0,
+    "seed": 20260923
+  },
+  "nfev": 5,
+  "actual_parameter_evaluations": 20,
+  "cost": 132.55330889737914,
+  "optimizer_message": "`ftol` termination condition is satisfied.",
+  "elapsed_s": 135.77868879999733,
+  "initial_parameters": [
+    -1.758518135448253,
+    0.43178241642553783,
+    3.0
+  ],
+  "lower_bounds": [
+    -4.605170185988091,
+    -2.995732273553991,
+    0.0
+  ],
+  "upper_bounds": [
+    1.0986122886681098,
+    3.6888794541139363,
+    6.0
+  ],
+  "parameterization": [
+    "ln j0 effective at lambda=3",
+    "ln tau_b / s",
+    "hydration exponent"
+  ],
+  "fixed_tau_f_note": "same previously calibrated freezing time in every variant; cross-temperature checks are retrospective",
+  "validation_scope": "temperature excluded from objective; closure and freezing prior were developed after viewing both datasets",
+  "boundary_hit": true,
+  "jacobian_singular_values": [
+    15.995451780901904,
+    4.9558065740551696,
+    0.46667427450889487
+  ],
+  "results": {
+    "-20": {
+      "role": "retrospective_temperature_holdout",
+      "run": "vopt_hydrated_train_m25_eefcb5a1071f53e6a69d",
+      "mass_residual": 9.149565039340033e-13,
+      "energy_residual": 1.3637720233138839e-15,
+      "complete": true,
+      "V_RMSE": 0.0261868241692161,
+      "T_RMSE": 0.4986844036655615,
+      "V_MAE": 0.02171862908340185,
+      "T_MAE": 0.4041370793198542,
+      "V_min": 0.4982692721910368,
+      "valley_time": 13.8,
+      "valley_time_error": 0.20000000000000107,
+      "depth": 0.3077624304045359,
+      "recovery": 0.1273158179280981,
+      "depth_error": 0.007237569595464177,
+      "recovery_error": 0.06168418207190196,
+      "dT": 6.67965977756046,
+      "prediction_pass": false
+    },
+    "-25": {
+      "role": "training",
+      "run": "vopt_hydrated_train_m25_52b2592972709d9ff52a",
+      "mass_residual": 7.226678608717529e-12,
+      "energy_residual": 1.1384531672881118e-15,
+      "complete": true,
+      "V_RMSE": 0.03665967724701092,
+      "T_RMSE": 0.2090224394967055,
+      "V_MAE": 0.03141952825303008,
+      "T_MAE": 0.17691810348712697,
+      "V_min": 0.521943442414246,
+      "valley_time": 13.6,
+      "valley_time_error": 0.0,
+      "depth": 0.2648133820120325,
+      "recovery": 0.07142602075755167,
+      "depth_error": 0.05218661798796753,
+      "recovery_error": 0.08757397924244836,
+      "dT": 7.454019646776942,
+      "prediction_pass": false
+    }
+  }
+}

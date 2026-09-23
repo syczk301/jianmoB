@@ -1,0 +1,7 @@
+# Preserve original bytes for result SHA-256 manifests.
+* -text
+*.npz binary
+*.png binary
+*.pdf binary
+*.zip binary
+*.docx binary

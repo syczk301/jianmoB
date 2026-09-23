@@ -1,0 +1,40 @@
+{
+  "preheat": "no_officially_feasible_candidate",
+  "coheat": {
+    "case_hash": "ee8aa4a8ac2bd333",
+    "feasibility": "feasible",
+    "stop_reason": "horizon",
+    "success_time": 1.1386152078814137e-13,
+    "last_valid_time": 70.0,
+    "th_startup": 0.0,
+    "startup_result": "success",
+    "shutdown_status": "passed",
+    "E_aux_total_J": 0.0,
+    "E_cells_J": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "charge_C_cm2": 20.999999999999737,
+    "wall_s": 23.985790400009137,
+    "nfev": 1536,
+    "mass_residual": 6.152320739212129e-16,
+    "energy_residual": 8.749496433666253e-16,
+    "exception": null,
+    "V_min": 0.5645668866195417,
+    "ice_max": 0.08772851643596663,
+    "delta_T_max": 8.310534540120102,
+    "E_aux_to_success_J": 0.0,
+    "shutdown_extrema": {
+      "V_min": 0.5634619734638837,
+      "ice_max": 0.08772851643596663,
+      "delta_T_max": 8.97198816466073
+    },
+    "candidate_id": "q3_coheat_qualification_70_fine",
+    "qualification_pass": true,
+    "qualification_min_V": 0.563462001682448,
+    "qualification_min_T_C": 0.009999999999990905
+  }
+}

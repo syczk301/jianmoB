@@ -1,0 +1,129 @@
+{
+  "job": "liquid_train_m20",
+  "train": [
+    -20
+  ],
+  "closure": "liquid_cl",
+  "config": {
+    "cells": 1,
+    "fixture": "H1",
+    "basis": "B",
+    "mesh": [
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "board_n": 2,
+    "end_n": 4,
+    "shared_bp": false,
+    "water": "W1",
+    "outlet": "closed",
+    "thermal": "phase",
+    "observation": "MEA",
+    "j0": 4.442994108975861,
+    "tau_b": 1.8631730390081849,
+    "tau_f": 33.307669427458045,
+    "tau_m": 1.0,
+    "mu_factor": 1.0,
+    "ice_connectivity": 3.0,
+    "h": 40.0,
+    "contact_r": 0.0,
+    "Rc": 1e-06,
+    "lambda0": 3.0,
+    "concentration": "given",
+    "end_concentration_factor": 1.0,
+    "cl_proton_loss": true,
+    "cathode_hydration_exponent": 2.3261061597241266,
+    "vapor_equilibrium": "supercooled_liquid",
+    "half_cl": false,
+    "T0": 253.15,
+    "ambient": 253.15,
+    "rtol": 1e-05,
+    "max_step": 0.5,
+    "voltage_limit": 0.3,
+    "charge_limit": 20.0,
+    "current_limit": 0.5,
+    "success_margin": 0.01,
+    "horizon": 300.0,
+    "sample": 0.2,
+    "control_prediction_horizon": 5.0,
+    "seed": 20260923
+  },
+  "nfev": 10,
+  "actual_parameter_evaluations": 25,
+  "cost": 146.71028397276712,
+  "optimizer_message": "`xtol` termination condition is satisfied.",
+  "elapsed_s": 189.24535230000038,
+  "initial_parameters": [
+    -1.758518135448253,
+    0.43178241642553783,
+    3.0
+  ],
+  "lower_bounds": [
+    -4.605170185988091,
+    -2.995732273553991,
+    0.0
+  ],
+  "upper_bounds": [
+    1.0986122886681098,
+    3.6888794541139363,
+    6.0
+  ],
+  "parameterization": [
+    "ln j0 effective at lambda=3",
+    "ln tau_b / s",
+    "hydration exponent"
+  ],
+  "fixed_tau_f_note": "same previously calibrated freezing time in every variant; cross-temperature checks are retrospective",
+  "validation_scope": "temperature excluded from objective; closure and freezing prior were developed after viewing both datasets",
+  "boundary_hit": false,
+  "jacobian_singular_values": [
+    21.206932259736494,
+    5.842954314034304,
+    2.408261482823202
+  ],
+  "results": {
+    "-20": {
+      "role": "training",
+      "run": "vopt_liquid_train_m20_b97ff18a5f8caf14b6fe",
+      "mass_residual": 7.728986971005626e-13,
+      "energy_residual": 9.48710972740093e-16,
+      "complete": true,
+      "V_RMSE": 0.02405541372410806,
+      "T_RMSE": 0.39688154104931694,
+      "V_MAE": 0.021036836682393503,
+      "T_MAE": 0.30140490038338486,
+      "V_min": 0.5127745885729315,
+      "valley_time": 13.8,
+      "valley_time_error": 0.20000000000000107,
+      "depth": 0.2616693841807749,
+      "recovery": 0.1393920321583355,
+      "depth_error": 0.05333061581922516,
+      "recovery_error": 0.049607967841664546,
+      "dT": 6.8629596875730385,
+      "prediction_pass": false
+    },
+    "-25": {
+      "role": "retrospective_temperature_holdout",
+      "run": "vopt_liquid_train_m20_ee1f8e390e6b36ea2d39",
+      "mass_residual": 1.4730560442697766e-13,
+      "energy_residual": 9.487109727400932e-16,
+      "complete": true,
+      "V_RMSE": 0.02974562972834162,
+      "T_RMSE": 0.19018596179073227,
+      "V_MAE": 0.026189577612598484,
+      "T_MAE": 0.15041247370126973,
+      "V_min": 0.5149255501589075,
+      "valley_time": 13.6,
+      "valley_time_error": 0.0,
+      "depth": 0.24086743793326448,
+      "recovery": 0.10639784747648351,
+      "depth_error": 0.07613256206673558,
+      "recovery_error": 0.05260215252351652,
+      "dT": 7.425814037328962,
+      "prediction_pass": false
+    }
+  }
+}

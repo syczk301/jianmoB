@@ -1,0 +1,50 @@
+[
+  {
+    "job": "B_H1_P3_train-20_-25",
+    "temp": -20,
+    "run": "frozen_model_fb5ef35a0c2aef1b8d4d",
+    "window_s": 2,
+    "slope_RMSE_K_s": 0.02919864536590516,
+    "slope_max_error_K_s": 0.04999299963279505
+  },
+  {
+    "job": "B_H1_P3_train-20_-25",
+    "temp": -25,
+    "run": "frozen_model_fd77bb148b98edcb18c4",
+    "window_s": 2,
+    "slope_RMSE_K_s": 0.023024275092823572,
+    "slope_max_error_K_s": 0.051787184282816257
+  },
+  {
+    "job": "B_H1_P3_train-25",
+    "temp": -20,
+    "run": "frozen_model_ac972e66594d073d7d46",
+    "window_s": 2,
+    "slope_RMSE_K_s": 0.03740810835454743,
+    "slope_max_error_K_s": 0.07895605441852639
+  },
+  {
+    "job": "B_H1_P3_train-25",
+    "temp": -25,
+    "run": "frozen_model_633413adaf40ecce48e2",
+    "window_s": 2,
+    "slope_RMSE_K_s": 0.024943382799156404,
+    "slope_max_error_K_s": 0.05279214195765444
+  },
+  {
+    "job": "B_H1_P3_train-20",
+    "temp": -20,
+    "run": "frozen_model_66fb19144aa0468e4894",
+    "window_s": 2,
+    "slope_RMSE_K_s": 0.024706037569939485,
+    "slope_max_error_K_s": 0.045821372151882256
+  },
+  {
+    "job": "B_H1_P3_train-20",
+    "temp": -25,
+    "run": "frozen_model_98176d9650e24daea9c9",
+    "window_s": 2,
+    "slope_RMSE_K_s": 0.026252883274680342,
+    "slope_max_error_K_s": 0.0706992965475749
+  }
+]
