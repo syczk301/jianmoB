@@ -1,7 +1,0 @@
-{
-  "samples": 1000,
-  "sample_period_s": 0.2,
-  "max_s": 0.000519599998369813,
-  "p99_s": 0.00020452098571695386,
-  "scope": "Controller and table only; desktop benchmark excludes sensors, actuator and PDE integration"
-}

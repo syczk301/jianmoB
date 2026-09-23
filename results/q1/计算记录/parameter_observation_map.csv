@@ -1,4 +1,0 @@
-parameter,equation,observable,confounder,status
-j0,Arrhenius/asinh activation,voltage,"ice activity, temperature",P1
-tau_b,bound-water relaxation,voltage transient,freeze time,P3 exploratory 0.05..100 s
-tau_f,freeze at -20 C,voltage/temperature transient,"drainage, adsorption",P3 exploratory 0.05..100 s

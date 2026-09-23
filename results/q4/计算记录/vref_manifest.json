@@ -1,7 +1,0 @@
-{
-  "model_id": "1a1345c545a423f0",
-  "reference_lambda": 3,
-  "max_tested_error_V": 0.0005128356118727639,
-  "tested_temperature_stride": 5,
-  "restriction": "midpoint sample validation; no extrapolation; NaN disables residual feature"
-}
