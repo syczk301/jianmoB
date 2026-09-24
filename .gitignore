@@ -1,17 +1,9 @@
-# Local environment, caches and previous delivery archives
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.ruff_cache/
-archive/
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-# Full candidate evaluation cache stays local
-work/evaluation_ledger/
-# Full state trajectories are kept locally in the lightweight edition
-work/runs/
-work/整理核查/git_runs.json
+# This repository publishes only root-level Python source and Git configuration.
+# Inputs, fitted parameters, results, notebooks and caches stay local.
+/*
+!/*.py
+!/.gitignore
+!/.gitattributes
+
+# Windows download metadata is never source code.
+*:Zone.Identifier
