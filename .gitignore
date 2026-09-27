@@ -1,10 +1,22 @@
-# This repository publishes root-level Python source, README and Git configuration.
-# Inputs, fitted parameters, results, notebooks and caches stay local.
+# Publish source, documentation and required input files.
 /*
 !/*.py
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/requirements.txt
+!/附件1.xlsx
+!/附件2.xlsx
+!/Q1/
+/Q1/*
+!/Q1/Q1_模型参数.csv
+!/Q2/
+/Q2/*
+!/Q2/Q2_表3策略比较.csv
+!/Q3/
+/Q3/*
+!/Q3/Q3_各片能耗分配.csv
+!/Q3/Q3_约束及端部指标.csv
 
 # Windows download metadata is never source code.
 *:Zone.Identifier
