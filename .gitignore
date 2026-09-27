@@ -1,9 +1,10 @@
-# This repository publishes only root-level Python source and Git configuration.
+# This repository publishes root-level Python source, README and Git configuration.
 # Inputs, fitted parameters, results, notebooks and caches stay local.
 /*
 !/*.py
 !/.gitignore
 !/.gitattributes
+!/README.md
 
 # Windows download metadata is never source code.
 *:Zone.Identifier
